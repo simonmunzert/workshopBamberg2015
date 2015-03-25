@@ -1,0 +1,69 @@
+JSS Journal of Statistical Software
+
+September 2011, Volume 43, Book Review 3.
+
+http://www.jstatsoft.org/
+
+Reviewer: Dianne Cook, Heike Hofmann Iowa State University
+R Graphics (2nd Edition)
+Paul Murrell Chapman & Hall/CRC, Boca Raton, FL, 2011. ISBN 1-4398-3176-2. xxvii+518 pp. USD 79.95 (P). http://www.stat.auckland.ac.nz/~paul/RG2e/
+
+Overview
+It has been 6 years since the first edition was published. A lot has changed in the world of statistical graphics during this time, which is reflected in the substantial new material in the second edition. Major changes include a chapter specifically devoted to the ggplot2 package and a new large section describing the many available graphics packages and tools in R (R Development Core Team 2011). In our review of the first book we described this book as an excellent technical introduction to drawing graphics with R ­ the changes make this book the essential and comprehensive guide to graphics in R.
+What's in this book?
+The book is divided into four parts ­ base R graphics, grid graphics, the graphics engine and graphics packages. The first section on traditional base graphics is effectively the same as the first edition, and the only major change to the second section on grid graphics is the additional chapter on ggplot2 (Wickham 2009). The section on graphics engines describes different graphics devices, primarily. The major addition is the fourth section giving a supermarket of details on available graphics tools in R.
+The book starts with an introduction to R graphics including a gallery of many different graphics made using R, demonstrating the power of R for generating static, high quality plots. The example plots range from basic statistical plots, to cleverly annotated plots, and whimsical art pieces. It serves as a very inspiring beginning and one feels well motivated to do battle with R.
+Base graphics was the first graphics system developed for R, and if you have used R in the past they are likely to be an old friend (or enemy). Base graphics follow the simple `ink on paper' paradigm: we can add, but not edit. The only way mistakes can be undone is to to
+
+2 R Graphics (2nd Edition)
+start afresh. More formally, there is no representation of the graphics independent of their presence on the plot. This makes base graphics straightforward and easy to understand, but fundamentally limited. This limitation is best seen when trying to customize graphics, where we either need to start from scratch or grapple with many arcane settings. "R Graphics" provides an excellent summary of these details. With the emergence of the lattice (Sarkar 2008) and ggplot2 packages the grid engine has probably surpassed base graphics in popular use. The framework provided by grid graphics has a number of advantages over the ink on paper design of base graphics:
+ Grid objects have an independent representation as R objects, not just pixels on a screen.
+ A system of viewports allows for extremely flexible layout.
+ A range of coordinate systems makes it easy to draw what you want where you want it.
+To program in grid graphics requires seemingly low-level code, pushing and pulling viewports, for example. The packages built in grid translate the programming requirements into higherlevel and more data-centric code. But as with all higher-level languages, at some point users will hit a limit to creative flexibility ­ they cannot do absolutely everything they desire in these systems. For example, one of the frustrations in working with ggplot2 is that it is not possible to draw multiple plots in one graphics device. The grid foundation enables plots created with each package to be enhanced with grid commands, such as creating two ggplot2 plots in a single device, which the advanced user will find well-documented in this book. The grid graphics package was designed and written almost entirely by the author of the book, so Dr. Murrell speaks with clear authority in the explanation of programming graphics with grid. The two chapters on the major graphics packages built on grid, ggplot2 and lattice, are concise and well-written introductions. To learn more about these packages the reader is directed to the recently published books explaining them in detail: (Wickham 2009) and (Sarkar 2008). The new section on graphics packages generally available for use in R, is especially comprehensive. Here are some highlights of the material in this section:
+ A chapter on the package vcd (Meyer, Zeileis, and Hornik 2006) describes making plots of categorical data.
+ Map and network drawing packages are described.  Some color scheme choice packages are described, including RColorBrewer (Neuwirth
+2011) and ColorBrewer.org (Harrower and Brewer 2003).  There is a chapter on interactive and dynamic graphics packages rggobi (Temple Lang,
+Swayne, Wickham, and Lawrence 2011) and iplots (Urbanek and Wichtrey 2011).  How to make animations using the animation (Xie 2011) package is described.  Some of the packages are utilities for reading in different types of images and outputting
+different types of formats, such as SVGAnnotation (Temple Lang and Nolan 2011).  One chapter is devoted to writing GUIs (graphical user interfaces) to enable some in-
+teraction with graphics.
+
+Journal of Statistical Software ­ Book Reviews
+
+3
+
+What is not entirely clear in the description of these plotting packages is on what base they are built. We tend to think most are written in base graphics.
+
+What's not in this book?
+COLOR! For an important graphics book, it is unfortunate that it does not have color. In truth, a lot of the book describes code and technical details of plotting in R, for which color is not needed, but there is some attention given to color choice and use in different parts and these would have been greatly enhanced by color figures. It is boggling to us why CRC didn't automatically insist on color production here, and couldn't find a way to offer it at much the same price. Similarly sized books with color are sold for a similar price to this one.
+"R Graphics" still does not attempt to explain the how or why of statistical graphics, which is reasonable. It covers the technicality of plot production, not purpose, giving the reader enough rope to be extremely creative or to fail spectacularly. It does, however, point readers to other books where they might learn about good graphics, and plotting for data analysis.
+The book's website provides an electronic version of the code used in the book.
+
+Recommendation
+This is an excellent book. Everyone who uses R to draw graphics should have a copy!
+
+References
+Harrower MA, Brewer CA (2003). "ColorBrewer.org: An Online Tool for Selecting Color Schemes for Maps." The Cartographic Journal, 40(1), 27­37.
+Meyer D, Zeileis A, Hornik K (2006). "The Strucplot Framework: Visualizing Multi-Way Contingency Tables with vcd." Journal of Statistical Software, 17(3), 1­48. URL http: //www.jstatsoft.org/v17/i03/.
+Neuwirth E (2011). RColorBrewer: ColorBrewer.org Palettes. R package version 1.0-5, URL http://CRAN.R-project.org/package=RColorBrewer.
+R Development Core Team (2011). R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. ISBN 3-900051-07-0, URL http: //www.R-project.org/.
+Sarkar D (2008). lattice: Multivariate Data Visualization with R. Springer-Verlag, New York.
+Temple Lang D, Nolan D (2011). "Interactive and Animated Scalable Vector Graphics and R Data Displays." Journal of Statistical Software. Forthcoming.
+Temple Lang D, Swayne D, Wickham H, Lawrence M (2011). rggobi: Interface between R and GGobi. R package version 2.1.17, URL http://CRAN.R-project.org/package=rggobi.
+Urbanek S, Wichtrey T (2011). iplots: Interactive Graphics for R. R package version 1.1-4, URL http://CRAN.R-project.org/package=iplots.
+
+4 R Graphics (2nd Edition)
+Wickham H (2009). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag, New York.
+Xie Y (2011). animation: A Gallery of Animations in Statistics and Utilities to Create Animations. R package version 2.0-5, URL http://CRAN.R-project.org/package= animation.
+Reviewer:
+Dianne Cook, Heike Hofmann Iowa State University Department of Statistics Ames, IA 50011-1210, United States of America E-mail: dicook@iastate.edu, hofmann@iastate.edu URL: http://www.public.iastate.edu/~dicook/,
+http://www.public.iastate.edu/~hofmann/
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 43, Book Review 3 September 2011
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2011-09-13
+
+

@@ -1,0 +1,28 @@
+Journal of Statistical Software
+JSS
+
+September 2004, Volume 11, Book Review 7.
+
+http://www.jstatsoft.org/
+
+Reviewer: Rodney Sparapani Medical College of Wisconsin
+Random Number Generation and Monte Carlo Methods, Second Ed.
+James Gentle Springer, New York, NY, 2003. ISBN 0-387-00178-6. 381 pp. $79.95. http://www.science.gmu.edu/~jgentle/rngbk/
+This book is an excellent reference for statisticians who need to generate pseudorandom numbers (PRN). Gentle brings together the literature in a helpful step-by-step format and provides copious references for those who want or need to dig deeper.
+Content
+The are many differences between the First and Second Ed. Of course, the errata from the First Ed. are corrected. And, the ink appears to be darker making the Second Ed. easier to read. Beyond, the cosmetic, Gentle incorporates the advances that have been made in the five years since the First Ed. Chapter 1 is on simulating Uniform random numbers. These are the foundation of PRN for many other distributions as well. Gentle stresses how important "good" Uniform PRN is and he frequently reminds us of that throughout the rest of the book. Chapter 2 is on the quality of PRN. Again, it's hard to stress this too much. Gentle explains many of the ways that PRNs can be tested with specific reference to test suite software including Marsaglia's DIEHARD, the NIST Test Suite, and TestU01 (which includes all of those tests and more). Chapter 3 is a short discussion of quasirandom numbers. This is an area that I have not seen discussed in other works. Chapter 4 discusses PRN from non-Uniform distributions. This includes general techniques like inverse-CDF, transformations, acceptance/rejection, ratio-of-uniforms, etc. I found his discussion of the Metropolis-Hastings Algorithm particularly insightful. Specifically, after the Markov chain (MC) has reached convergence, the algorithm changes slightly. Until convergence, a rejected candidate point can be thought of as the MC staying in the same place, i.e. the previous value is repeated. However, after convergence, this is not the case: a rejected candidate point results in new candidates being generated until one is accepted. This subtle point is not often acknowledged. Chapter 5 discusses PRN for specific non-Uniform distributions. The methods discussed in Chapter 4 are contrasted with a survey of the literature on more efficient algorithms. Chapter 6 is a short discussion on generating random samples, permutations and other phenomena like order statistics, censored data, stochastic processes and ARMA/ARIMA/GARCH time series. Chapter 7 discusses Monte Carlo methods. Monte Carlo methods rely on PRN to evaluate mathematical expressions that can't be easily performed either numerically or analytically such as
+
+2 Random Number Generation and Monte Carlo Methods, Second Ed.
+integrals, especially of high-dimension, and differential equations, especially of complex systems such as those found in physics or finance. Monte Carlo methods also provide an estimate of the variance of the estimate. Gentle reminds us that the variance estimate needs to be just as carefully calculated as the estimate is. For example, the batch means method is often necessary since the naive variance estimate is biased. Chapter 8 is on software. Some of my favorites were mentioned like IMSL, GSL, R, S-PLUS and SPRNG. However, he only goes into great detail with respect to IMSL. Gentle was involved with creating the IMSL libraries so throughout the book he will often refer to the relevant IMSL PRN function. This is a boon for those who use IMSL. Chapter 9 is a short discussion on Monte Carlo studies in general.
+Comment
+I recommend this book to anyone who needs PRN. It is an excellent reference and does a good job of reviewing the literature.
+Reviewer:
+Rodney Sparapani Medical College of Wisconsin Center for Patient Care and Outcomes Research 8701 Watertown Plank Rd. PO Box 26509 Milwaukee, WI 53226, USA gentle E-mail: rsparapa@mcw.edu
+
+Journal of Statistical Software
+September 2004, Volume 11, Book Review 7.
+http://www.jstatsoft.org/
+
+Published: 2004-08-25
+
+

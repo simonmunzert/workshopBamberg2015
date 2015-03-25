@@ -1,0 +1,36 @@
+JSS Journal of Statistical Software
+
+July 2006, Volume 16, Book Review 4.
+
+http://www.jstatsoft.org/
+
+Reviewer: Juana Sanchez University of California at Los Angeles
+Handbook of Univariate and Multivariate Data Analysis and Interpretation with SPSS
+Robert Ho Chapman & Hall/CRC, Boca Raton, Florida, 2006. ISBN 1-58488-602-1. 406 pp. USD 69.95 (P).
+
+This book is written for researchers or students who have never used SPSS but have had some introductory statistics training with exposure to some multivariate methods. In particular, the book is a very easy handbook for the social science or public health graduate (or undergraduate) student with that background. The book is also ideal as a textbook for a course on "Applied Statistics with SPSS" for any audience with introductory statistics training. Advanced researchers in statistics wishing to self-teach themselves SPSS to apply somewhat advanced techniques like multivariate regression, factor analysis, path analysis and structural equation modeling, will find the book very attractive, too.
+With more and more emphasis on defining statistics as the science of data, the use of commercial software packages such as SPSS to teach statistical methods is becoming very common in the classroom. Students of statistics, social science and public health need to be familiar with one of those packages to be competitive in the job market. In all cases, easy to follow, well written, hands-on tutorials with interesting data examples, like the book reviewed here, are needed.
+There are 16 chapters in this book. Chapter 1 explains the role that inferential statistics plays in statistical analysis. Chapter 2 introduces SPSS, particularly how to create a code book and a data set, how to read the data set, and how to compute basic summary statistics with this software. If learning data management with SPSS (and anybody serious about a commercial software package must do that) is the main goal, then the book must be complemented, e.g., with "SPSS 14.0 Brief Guide" (SPSS Inc. 2005). But if data management is not the main goal, the chapter is enough to do future analyses with different data formats. From Chapter 2 on, each chapter is self-contained and dedicated to a different statistical method and to how to implement this method with SPSS. The reader can jump to any chapter. Formulas are not presented at all. The presentation format is very similar to that of a good research paper: each chapter's title states the method described and the kind of research question the method helps answer. Following that, a checklist of the assumptions that must be fulfilled to apply the method are given, although the chapter does not explain how to check those assumptions.
+
+2 Handbook of Univariate and Multivariate Data Analysis and Interpretation with SPSS
+If new concepts appear, they are explained before moving on. After that, an interesting and realistic example and a table with the corresponding data set is shown; the author explains the data structure and how to analyze the data with SPSS to answer the question posed. Then every single step in the execution of the analysis is demonstrated with screen shots and in writing so that there is no room for getting frustrated in the execution. The command syntax is also given. The hypothesis being tested is always stated in the context of the example. Finally, the SPSS output is shown and the results are interpreted very clearly for the nonstatitical audience, but rigorously enough for a research journal (i.e., values of the test statistic, p values are given in parenthesis). The menu of methods covered in the book is: t test for independent groups, paired samples t test, one-way ANOVA, factorial ANOVA, multivariate analysis of variance, repeated measures analysis, correlation, linear regression, factor analysis, reliability, multiple regression, path analysis, structural equation modeling and nonparametric tests. The length of each chapter is proportional to the complexity of the method; structural equation modeling, highly recommended for those not familiar with this method, is the longest, followed by factor analysis and multiple regression. All the classical methods explained in the book are widely used in social science and public health research.
+The main strengths of the book are: (a) its hands-on approach, (b) the choice of a userfriendly software to teach how to apply statistical methods, and (c) the clarity with which the statistical methods and the context of their applicability are explained. Learning to analyze data with SPSS with this handbook is very easy even for those rusty in their introductory statistics background. The reader that completes the book is ready to use the SPSS manuals available elsewhere. The style is pedagogical and logical and there is consistency of style across all the chapters. The index is very useful. There are no typographical errors. Thus, the aim of the book has been met. The authors do indeed provide clear guidelines to both the execution of the specific statistical tests with SPSS and the research designs for which they are relevant.
+Perhaps the author should point out at the outset that knowledge of basic introductory statistics is needed to use this book effectively. The assumptions that are listed need to be checked. How would someone check that the sampling distribution of the difference between two means is normal unless one knows the central limit theorem? Chapter 1 introduces the reader to inference, but it contains some technical expressions not commonly used in statistics like the term accept the null or, on pages 4 and 5, the interpretation of the outcome needed to reject the null hypothesis of unbiasedness. The term p value is never mentioned throughout the chapters; the author prefers to use instead the observed significance level. Chapter 16, section 16.4.6, for example, interprets the latter as the probability of the null hypothesis being true. Expressions and interpretations like those, which are not too frequent in the book, and therefore do not detract from the good quality of the book, are hard for the reader to correct without some basic knowledge of statistics.
+I have taught statistical software packages for groups with diverse statistical backgrounds, and have found out that a handbook that explains the statistical methods at the same time as the software is necessary for more effective teaching. There is no book in the market as good for teaching some of the most commonly used statistical methods with SPSS as Ho's book. I recommend it highly for all the uses mentioned throughout this review.
+
+Journal of Statistical Software ­ Book Reviews
+References
+SPSS Inc (2005). SPSS 14.0 Brief Guide. ISBN 0-13-173847-X.
+Reviewer:
+Juana Sanchez University of California at Los Angeles Department of Statitistics 8125 Math Sciences Building, Box 951554 Los Angeles, CA 90095-1554, United States of America E-mail: jsanchez@stat.ucla.edu URL: http://www.stat.ucla.edu/~jsanchez/
+
+3
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 16, Book Review 4 July 2006
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2006-07-19
+
+

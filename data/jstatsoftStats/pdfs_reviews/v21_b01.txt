@@ -1,0 +1,61 @@
+JSS Journal of Statistical Software
+
+July 2007, Volume 21, Book Review 1.
+
+http://www.jstatsoft.org/
+
+Reviewer: Joseph Hilbe Arizona State University
+Bayesian Core: A Practical Approach to Bayesian Computational Statistics
+Jean-Michel Marin and Christian P. Robert Springer-Verlag, New York, NY, 2007. ISBN 978-0-387-38979-0. 255 pp. USD 74.95 (P). http://www.ceremade.dauphine.fr/~xian/BCS/
+The authors, Marin from Universit´e Paris-Sud, and Robert, from Universit´e Paris-Dauphine, have attempted to produce an intermediate level text on Bayesian statistics aimed for use by graduate students who need to have a fundamental understanding of Bayesian methods for their research. The authors also intend the book to be useful to scientists in all disciplines who may need to use Bayesian statistics. For several years both authors have taught a course corresponding to the text as part of a second year masters program for students in data processing as well as in statistics. The aim is to have readers learn to think about the purpose of a Bayesian analysis and to develop an intuition of what their analytic results should look like. Exercises are found throughout the text, rather than at the end of each chapter. The hope is to have readers get a more immediate feedback about what they are learning as they progress through the material. This way, inaccuracies in thinking can be caught early in the learning process. My impression of the text is that it is more of a handbook on Bayesian methods than a traditional textbook. The writing style is generally clear and to the point. The subject matter is for the most part developed in a step by step manner, with an effort taken to clarify major concepts and equations as they develop in the discussion. The authors have chosen to employ R for all examples, and even have a section in the text entitled, "A short introduction to R." However, the use of examples showing R code in the text is for the most part dropped after Chapter 4.
+Chapter 1: User's manual
+In their opening chapter the authors provide guidelines regarding prerequisites, styles and fonts used in the text, and an overview of R programming. This section provides a summary of relevant R objects, a listing of probability distributions in R, a guide on how to write R functions, a discussion of how to read files into an R function and how to display results, and the administration of R objects. The section, "A short introduction to R," is helpful to those having no background in R programming, and it indeed corresponds to the section title ­ "A
+
+2 Bayesian Core: A Practical Approach to Bayesian Computational Statistics
+short sntroduction." One can in no way read the section and begin useful R programming. However, it is a good base from which a course instructor can enlarge on the subject.
+Chapter 2: Normal models
+The chapter begins with a brief overview of the normal or Gaussian model. The authors commence by developing a normally distributed histogram of temperature differences inherent in the cosmic microwave background (CMB) radiation reflecting the universe as it was when the cosmic temperature was cool enough to allow the formaton of atoms. The next section is titled, "The Bayesian toolkit." It is here where the authors bring up the notions of information, priors, and posteriors. Readers are also introduced to the exponential family of distributions, which underlay generalized linear models. Following this discussion, the subjects of confidence intervals and then hypothesis testing are addressed. The first chapter ends with a section on Monte Carlo methods and importance sampling. The discussion in the second chapter is not as elementary as the authors would have readers believe in the introduction. It starts out in an rather easy manner, but quickly diverges into more difficult methods, giving the reader a minimum of supporting background. It is likely that many masters level students will need additonal instructor support, even at this early point in the text.
+Chapter 3: Regression and variable selection
+This is one of the better chapters in the text. After presenting a clearly written overview of the traditional approach to OLS regression, the authors address the Bayesian approach to the Gaussian model. They first discusses the notion of conjugate priors, which is basic to Bayesian thinking. Zellner's G-prior, Jeffrey's prior, and Zellner's non-informative G-prior are discussed in detail. The next section in the chapter deals with Markov chain Monte Carlo (MCMC) methods and an overvidew of how a two-stage Gibb sampler works. Generic R code is given to allow readers use of Gibbs sampling with their own data. Finally, the authors describe Bayesian methods of variable selection in modeling building. An interesting data set, called catepillar, is used for examples.
+Chapter 4: Generalized linear models
+The authors focus on binary response logit and probit models as well as log-linear or Poisson count response model to demonstrate Bayesian modeling from within the generalized linear model (GLM) framework. Of course, the Gaussian model examined in the previous chapter is also a GLM, but typically Gaussian or normal linear modeling is considered separately, as it is in this text. The authors begin the chapter by providing an overview of the MetropolisHastings algorithm (M-H) which is used for the simulation of more complex distributions when both standard and Gibbs sampling fail to work. As a Markov chain Monte Carlo type algorithm, the M-H algorithm includes a random walk component. The algorithm has an essential role in the modeling of Bayesian GLMs. A data set containing information on both genuine and counterfeit bank notes is used for the majority of this chapter. The authors do a good job explaining the basics of GLM, including a thorough section on link functions. They detail the M-H algorithm, showing a step-by-step outline of the algorithm. Separate sections are then given to the modeling of the bank note data using Bayesian probit and then
+
+Journal of Statistical Software ­ Book Reviews
+
+3
+
+logit models. The Poisson model uses a separate data set, called airquality. For each section, the authors give R code on inputting and formatting the data, and subsequently modeling it. Both traditional GLM methods, usually built on a variety of iteratively re-weighted least squares algorithm, and the M-H method of parameter estimation for Bayesian-based models are shown.
+
+Chapter 5: Capture-recapture experiments
+This chapter deals with a special case of survey models. Emphasis is given to capturerecapture surveys, where persons are observed repeatedly over time. The repeated observations can then be used to draw inferences regarding the population size and the inherent dynamic properties of the population as a whole. Various sampling models are discussed, including the binomial capture model, the two-stage capture-recapture model, the T-stage capture-recapture model, the open population model, and the Arnason-Schwarz capturerecapture model. The accept-reject sampler algorithm is demonstrated using several clearly written examples.
+
+Chapter 6: Mixture models
+This chapter and the following two are technically more difficult than the preceding chapters. Chapter 5 is of intermediate complexity. The authors use the same style of writing in these chapters, but the subject material itself is more complex. Essentially, this chapter is devoted to an examination of several mixture models and their MCMC solution. The most extensively discussed mixture is the normal-normal, which is clearly described. Mean mixture Gibbs sampler and mean mixture M-H sampler algorithms are described in detail and illustrated with example output, including graphical displays. Other more complex algorithms are then discussed. Each is a type of MCMC-based algorithm. Included in this group are variable dimension models and reversible jump MCMC models.
+
+Chapter 7: Dynamic models
+The authors warn readers that this chapter contains more advanced material. And so it does. The primary focus of the chapter is to show the Bayesian processing of standard time-series models including the autoregressive, moving average, and ARIMA models. Moreover, the authors also discuss models whose dependence is evaluated by means of a missing variable structure. Such models belong to a variety of hidden Markov model that was first discussed in the previous chapter. Stochastic volatility finance models are included in this class. In the earlier parts of the chapter, the authors emphasize basic temporal or dynamic models, indexed only by time. These models use a Markov dependence structure, which was discussed in Chapters 5 and 6. One of the better algorithms presented in the text is the reversible jump AR(p) sampler used for autoregressive models. Although discussed briefly in previous sections, a thorough section on hidden Markov models is presented at the end of the chapter.
+
+Chapter 8: Image analysis
+Image analysis has been a major application of Bayesian methods for the past quarter century.
+
+4 Bayesian Core: A Practical Approach to Bayesian Computational Statistics
+The authors bring two approaches to bear on the topic. First they discuss classification analysis ­ in particular, k-nearest neighbor methods. Secondly, they focus on pattern recognition and image correction, based on Potts modeling, and in the case of binary images, Ising models. Included in the discussion are the more advanced topics of Markov random fields and general spatial analysis. The Metropolis-Hastings sampler algorithm is used for simulation modeling of image and spatial data. A specialized application of the M-H algorithm for image data is shown in detail in the text. This is a most useful guide for those who need to implement these methods into their research. Astrostatistics and Geostatistics are two major applied areas of statistics that heavily use image analysis in research. It is an advanced statistical method, but the authors do a fairly good job in making it as clear as possible.
+Concluding remarks
+The text is an intermediate-advanced overview of Bayesian methods and how they can be applied to certain areas of research. In the preface the authors would have prospective readers think that the text is a bit more more elementary than it is. When viewed in comparison to a text like Gill (2002), it is evident that Bayesian Core is written at a higher level of complexity. However, for graduate students relying on Bayesian methods for the research on areas related to specific topics discussed in the text, the book could prove to be an invaluable guide. The authors do not provide the Web address where readers can download the data sets and R code used for examples. However, they do mention in several places that all data sets and code can be found on the authors' Web site. The address is also provided on Springer's Web page for the book. In fact, the Springer page allows one to directly click on the authors' homepage URL. Data sets and all R code are found at this latter site, which is http://www.ceremade.dauphine.fr/~xian/BCS/. A solution manual is also available from Springer, with instructions and an application form for use given on the Springer site. See http://www.springer.com/west/home?SGWID=4-102-22-173676531-0. I would have preferred that the author's URL would have been listed in the text, as well as the URL for the Springer page for the book. I nevertheless recommend the book for classroom use in advanced masters and Ph.D. level courses in Bayesian methodology. The book can be used in undergraduate settings, but only with substantial support from the instructor.
+References
+Gill J (2002). Bayesian Methods: A Social and Behavioral Sciences Approach. Chapman & Hall/CRC, Boca Raton, Florida, 2nd edition.
+
+Journal of Statistical Software ­ Book Reviews
+Reviewer:
+Joseph Hilbe Arizona State University School of Social and Family Dynamics Tempe, AZ, United States of America E-mail: hilbe@asu.edu URL: http://en.wikipedia.org/wiki/Joseph_Hilbe
+
+5
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 21, Book Review 1 July 2007
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2007-07-30
+
+

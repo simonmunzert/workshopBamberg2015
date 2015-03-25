@@ -1,0 +1,22 @@
+JSS Journal of Statistical Software
+
+March 2005, Volume 12, Book Review 4.
+
+http://www.jstatsoft.org/
+
+Reviewer: Robert Gentleman Fred Hutchinson Cancer Research Center
+Bioinformatics Software Engineering
+Paul Weston John Wiley and Sons, New York, 2004. ISBN 0-470-85772-2. 140 pp. $65.00 (P).
+
+This is a relatively short monograph (125 pages). It is written at an introductory level and is quite informal. The advice is generally good, but it can be very brief. It is unfortunate that the author chose not to include a comprehensive bibliography as that would have made the monograph more useful. As it stands, the advice is too brief and incomplete to be of more than general use.
+I did like some of the topics the author chose to cover although he should have been much broader in his coverage. There was no advice given on using databases, or on the relative strengths and weaknesses of different programming paradigms. The process of developing applications to both provide and make use of web services is not considered. Only a very rudimentary treatment of use cases is given and there is no coverage of version control, versioning or other fairly basic software engineering practices. So it seems more has been left out than left in.
+In short, the book is a short read that thinly covers some of the broad issues but would have to be supplemented by other books and articles.
+
+Reviewer:
+Robert Gentleman Division of Public Health Sciences Fred Hutchinson Cancer Research Center 1100 Fairview Ave. N, M2-B876 PO Box 19024 Seattle, Washington 981029-1024, United States of America E-mail: rgentlem@fhcrc.org
+Journal of Statistical Software
+March 2005, Volume 12, Book Review 4. http://www.jstatsoft.org/
+
+Published: 2005-03-14
+
+

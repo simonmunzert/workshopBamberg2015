@@ -1,0 +1,26 @@
+JSS Journal of Statistical Software
+
+April 2010, Volume 34, Book Review 3.
+
+http://www.jstatsoft.org/
+
+Reviewer: Adrian Bowman University of Glasgow
+Functional Data Analysis with R and MATLAB
+J.O. Ramsay, Giles Hooker, Spencer Graves Springer-Verlag, New York, 2008. ISBN 978-0-387-98184-0. 207 pp. USD 59.95. http://www.springer.com/978-0-387-98184-0
+One of the major strengths of statistical methodology is that the key ideas and techniques developed in one area can often be adapted to deal with completely different types of data structure. Functional data analysis is a very good example of this, where data in the form of curves or more complex objects can be modelled by suitable adaptations of principal components analysis, linear models or other tools which are familiar when dealing with simpler forms of data. One of the first systematic treatments of functional data was by Ramsay and Silverman (2005) and this remains a key text for a general introduction, including some technical details of the methodology as well as a variety of applications. A companion text by Ramsay and Silverman (2002) has a more substantial focus on case studies. The text reviewed here has rather different aims, as it seeks to introduce the ideas of functional data analysis in an application-oriented manner, with direct reference to the computational tools available in the R and MATLAB computing platforms. There are numerous examples and, as befits the Use R! series, the discussion of these includes code to perform the analysis. The first chapter gives an introduction to the nature of functional data while the second sets the computational scene by comparing key characteristics of R and MATLAB. This short chapter is not intended as an introduction to either language and readers need to be familiar with at least one of them. However, those who are familiar with one but not both will find the comparison helpful and will be reassured that there is a strong element of similarity at an elementary level. The following three chapters cover some of the key ideas and computational methods required, such as specifying bases to represent data in functional form and building functional data objects with a sufficiently rich structure. The key concept of smoothing data to produce suitable functional forms from noisy observations is also discussed. The treatment of this last topic moves quickly to features such as positive and monotone smoothing which do not usually appear in more general introductions to smoothing techniques but which fit well with characteristics of functional data which are often of practical interest. Among the following chapters there are discussions of how well known ideas such as descriptive methods, principal components and canonical correlation can all be adapted to the functional data setting. Linear models are given substantial exposure in two chapters, one dealing with
+
+2 Functional Data Analysis with R and MATLAB
+the case of functional covariates and the other with functional responses. These are both helpfully motivated as natural extensions to standard linear models. Technical details are clear and accessible, with descriptions of the models provided in addition to discussion of code. One of the characteristics of functional data is that interest in derivatives often arises naturally, for example through identification of key features or landmarks such as maxima or minima. These are often used as the basis for registering or aligning curves which have common features but which are expressed on different timescales. Time warping is a key idea here and landmarks provide key information from which the timescale of each curve can be adjusted to perform alignment. One chapter of the book describes these key ideas and illustrates the code available to carry out these operations. The final short chapter introduces more general approaches built around dynamics and differential equations. In particular, an analogue of principal components analysis in this domain, known as principal differential analysis, is described and illustrated. The book is intended as a means of introducing functional data analysis to those who would like to use it as a research tool in a variety of applications. It gives a brief but clear description of the concepts and methods together with a strong focus on implementation. The mixture of R and MATLAB illustrative code works well and the latter computing environment, together with the material on dynamics, will suit those from an engineering or physical sciences background. It therefore provides an excellent starting point for those who would like to make use of these very powerful techniques in analysing data.
+References
+Ramsay JO, Silverman BW (2002). Applied Functional Data Analysis: Methods and Case Studies. Springer-Verlag, New York.
+Ramsay JO, Silverman BW (2005). Functional Data Analysis. 2nd edition. Springer-Verlag, New York.
+
+Reviewer:
+Adrian Bowman Department of Statistics The University of Glasgow Glasgow G12 8QQ, United Kingdom E-mail: adrian@stats.gla.ac.uk URL: http://www.stats.gla.ac.uk/~adrian/
+Journal of Statistical Software
+published by the American Statistical Association Volume 34, Book Review 3 April 2010
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2010-04-15
+
+

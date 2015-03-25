@@ -1,0 +1,23 @@
+JSS Journal of Statistical Software
+
+September 2005, Volume 14, Book Review 4.
+
+http://www.jstatsoft.org/
+
+Reviewer: Jan de Leeuw University of California at Los Angeles
+Modern Multidimensional Scaling: Theory and Applications (Second Edition)
+Ingwer Borg and Patrick J.F. Groenen Springer, New York, NY, 2005. ISBN 0-387-25150-2. 614 pp. $89.95 (P). http://www.springeronline.com/0-387-25150-2
+This book is the second edition of Modern Multidimensional Scaling. The first edition came out in 1997. As the authors point out, earlier versions of the book (with different combinations of authors, and in various languages) have been around since 1981. It is interesting to connect the various versions of the book with the history of multidimensional scaling (from now on MDS). For various reasons, MDS originated in psychometrics, and it was developed initially by psychometricians or mathematicians and statisticians working in psychometrics. It was soon picked up by marketers and geographers, and quite a bit later by astronomers, geneticists, and chemists. The book still quite clearly shows its origins in psychometrics and social measurement. It has quite a few chapters mixed in related to psychological theory or questionnaire design theory. These parts may be of less interest to statisticians and computational scientists, but they are important to define the character of the book. MDS as such is a somewhat boring technique, in which several more or less natural models for (usually) Euclidean distances are fitted to dissimilarity or preference data by (usually) least squares. The emphasis is very heavily on ways of defining goodness-and-fit and on minimization of the resulting loss functions. There is very little statistics in the inferential sense, and what there is seems rather contrived. There are very few theorems, and most of the results are of a computational nature. The book under review here is without a doubt the most comprehensive and most rigorous book on MDS. Other books in this area are usually much less complete and much more applied. The second edition is considerably (140 pages) longer than the first, mostly because much more material on MDS of rectangular matrices (also known as unfolding) and MDS of asymmetric matrices is included. By far the largest part of the book is for computational scientists interested in the details of algorithm construction. The basic SMACOF algorithm for metric and non-metric MDS is discussed in considerable detail, although the relatively few known theoretical results about the algorithm do not get much attention. The book is firmly in the psychometric tradition
+
+2 Modern Multidimensional Scaling
+emphasizing matrix algebra, partial derivatives, and computer programs. This means that the book provides sufficient detail for someone with a computer and a matrix language to rapidly construct her own version of the algorithms. For some, this level of detail may be boring, because much of it is straightforward and obvious. For others, however, explicit documentation of all the steps involved in constructing MDS methods is undoubtedly very useful. And, of course, the new edition of the book has plenty of examples and its own website with supporting data sets. To summarize, this is currently by far the best available book on MDS, and it is quite likely to stay in that position for a long time. It has its idiosyncrasies, but most of these are quite charming and actually make it a better book. The mathematics behind MDS is quite minimal, the statistics is virtually non-existent, but it is still possible to write a 600 page book about its application and computation that describes an interesting and important field.
+Reviewer:
+Jan de Leeuw University of California at Los Angeles Department of Statistics Los Angeles, CA 90095-1554 United States of America E-mail: deleeuw@stat.ucla.edu URL: http://gifi.stat.ucla.edu/
+
+Journal of Statistical Software
+September 2005, Volume 14, Book Review 4.
+http://www.jstatsoft.org/
+
+Published: 2005-09-01
+
+

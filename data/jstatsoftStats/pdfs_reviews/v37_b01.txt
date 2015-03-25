@@ -1,0 +1,24 @@
+JSS Journal of Statistical Software
+
+November 2010, Volume 37, Book Review 1.
+
+http://www.jstatsoft.org/
+
+Reviewer: Cody Hamilton Edwards Lifesciences
+Bayesian Adaptive Methods for Clinical Trials
+Scott M. Berry, Bradley P. Carlin, J. Jack Lee, Peter Muller Chapman & Hall/CRC, New York, NY, 2011. ISBN 978-1-43898-2548-8. 323 pp. USD 89.95 (P). http://www.crcpress.com/product/isbn/9781439825488
+Though the title would indicate that this text focuses on a Bayesian approach to adaptive designs, it actually provides a rich introduction to Bayesian clinical trial design in general. It is written in an extremely readable style and is furnished with numerous examples and a great deal of helpful supplementary code. As the authors state in the preface, this text is not meant to replace a full introduction to Bayesian methods; however, it does provide an excellent clinical trials supplement. Chapter 1 provides a short introduction and comparison of the Bayesian and frequentist paradigms. Chapter 2 then provides a brief, introductory exposition of Bayesian methods including both the theoretical and the computational aspects. The following three chapters delve into the practical issues involved in phase I, II and III studies, respectively. The final chapter presents the authors thoughts on a variety of miscellaneous topics: incorporation of historical data, equivalence studies, multiplicity, and subgroup analysis. As one can tell by the focus on each of the three major phases of drug development, the text focuses primarily on examples and challenges from pharmaceutical trials. There are, however, examples from the medical devices industry as well. For example, the fifth chapter investigates a trial involving a medical device for the treatment of atrial fibrillation. The book assumes a reasonable familiarity with the R and WinBUGS software, and all code provided is from one or the other of these languages. This work provides a good overall look at the Bayesian approach to clinical trials. It covers the theoretical framework, provides software for the many excellent examples provided, and even delves into the practical regulatory issues that arise with the use of the designs. The book would be a worthy addition to the practicing statistician's library.
+Reviewer:
+Cody Hamilton Edwards Lifesciences
+
+2 Bayesian Adaptive Methods for Clinical Trials
+Department of Global Clinical Operations Irvine, CA 92614, United States of America E-mail: cody_hamilton@edwards.com URL: http://www.edwards.com/
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 37, Book Review 1 November 2010
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2010-11-08
+
+

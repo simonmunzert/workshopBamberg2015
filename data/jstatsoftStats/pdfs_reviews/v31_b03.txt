@@ -1,0 +1,45 @@
+JSS Journal of Statistical Software
+
+September 2009, Volume 31, Book Review 3.
+
+http://www.jstatsoft.org/
+
+Reviewer: Irina Kukuyeva University of California at Los Angeles
+Principles of Modeling and Simulation: A Multidisciplinary Approach
+John A. Sokolowski and Catherine M. Banks (eds.) John Wiley & Sons, Hoboken, NJ, 2009. ISBN 978-0-470-28943-3. xiii+259 pp. USD 94.95 (H). http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470289430.html
+
+Introduction
+For anyone who wants to learn about modeling and simulation, "there are no `Departments of Simulation' at Universities" (254). In turn, interested students should turn to Principles of Modeling and Simulation to learn about modeling and simulation techniques ­ the first book to cover applications across a multitude of disciplines.
+Book Contents
+The book is broken up into three parts: an overview of modeling and simulation (Part I, two chapters) as well as their various aspects (Part II, four chapters) and applications (Part III, three chapters). Each chapter is written by an expert in the field and concludes with a summary, a list of key terms, and an extensive list of references for further reading. Furthermore, the chapters in the book consecutively outline the steps needed to perform modeling and simulation successfully in a variety of fields and softwares and are outlined below.
+Chapter 1, What Is Modeling and Simulation? (Catherine M. Banks), motivates the use of modeling and simulation as a means of learning about processes for which data is not available in the real world (for a myriad of reasons). It introduces the readers to the history of modeling and simulation, some applications (to be covered in more detail in later chapters) as well as the advantages and disadvantages to both techniques.
+Chapter 2, The Role of Modeling and Simulation (Paul F. Reynolds, Jr.), introduces the readers to uses of simulations: for problem-solving (assuming complete knowledge of the phenomenon of interest) and for information gathering (assuming incomplete knowledge of the phenomenon of interest) and suggests questions to be answered by the simulation in either of those cases. Both concepts are explored in application to coin tossing and nuclear waste management.
+
+2 Principles of Modeling and Simulation: A Multidisciplinary Approach
+Chapter 3, Simulation: Models That Vary over Time (John A. Sokolowski), defines and discussestwo types of simulations: discrete event and continuous simulations. In the case of discrete event simulation, the readers are shown how to simulate customer waiting times when serviced by one clerk. To better understand continuous simulation (where equations may describe the processes), the author discusses simulations of a falling ball and a spreading of a disease. All three examples are explained via formulas and screen shots from a spreadsheet software.
+Chapter 4, Queue Modeling and Simulation (Paul A. Fishwick, Hyungwook Park), provides further insight into queuing systems. It defines key queuing modeling terms and provides source code in SimPack and Processing for implementing a simulation for a queuing model with a single clerk.
+Chapter 5, Human Interaction with Simulations (Michael P. Bailey, Ahmed K. Noor), is divided into two parts. The first part covers introductory statistics and the assumptions behind them as one approach to analyze the results from a simulation. Then the theory is applied to determine the optimal time of day to arrive at a security check point. The second part of the chapter discusses visualization tools as they aid in the analysis of simulation data.
+Chapter 6, Verification and Validation (Mikel D. Petty), motivates, defines and distinguishes between the two techniques which are vital to making a reliable and credible model. It also stresses the challenges of verification and validation, the methodology available to carry out the techniques, and the importance of assumptions behind them. The example of a falling ball is revisited (this time coded in C) and three potential models are explored to determine which is best. Chapter 7, Uses of Simulation (Tuncer I. O¨ ren), is composed of two parts. The first part introduces two aspects of simulation: performing experiments and providing experience. The second part provides extensive references for areas of application for simulation as well as organizations involved in simulation in the United States and abroad.
+Chapter 8, Modeling and Simulation: Real-World Examples (Michael D. Fontaine, David P. Cook, C. Donald Combs, John A, Sokolowski, Catherine M. Banks), covers modeling and simulation applied to transportation, business, medicine and the social sciences. For the applications in the fields of transportation, business and the social sciences, the authors discuss the steps taken to develop a successful project, including calibrating models and using appropriate software. In the medical sphere, the author discusses the aspects of medical training via simulations for doctors at all levels of expertise.
+Chapter 9, The Future of Simulation (R. Bowen Loftin), presents the author's subjective hypotheses which stress the importance of adaptive interfaces (generic interfaces that can be targeted for simulations) as well as education in modeling and simulation as the stepping stones into the future.
+Conclusion
+The only prerequisites for the book are college-level algebra and familiarity with spreadsheet software. While the textbook is appropriate for an upper-level undergraduate course or an introductory graduate course, readers from all levels of experience will benefit from the book. Whether it is learning about a novel application of modeling and simulation, the nuances that come with it, or the software to implement it in, Principles of Modeling and Simulation
+
+Journal of Statistical Software ­ Book Reviews
+
+3
+
+sharpens the intuition. No matter your sphere of expertise: you do not need to hold a Physics degree or be a Medical doctor to follow and appreciate applications of modeling and simulation in those disciplines as described in the book.
+On a final note, there are some typos in the book: p. 65, the references to Equations 3.4­3.6 should refer to Equations 3.8­3.10 and the corresponding equation in the spreadsheet should be B2-($F$2*B2*C2)*$H$2 instead of B2-($G$2*B2*C2)*$I$2; p. 160 should say "military personnel" not "military personal"; on p. 186, the value calculated above Table 8-2 should be 4,770,000 instead of 3,040,000.
+
+Reviewer:
+Irina Kukuyeva University of California at Los Angeles Department of Statistics 8125 Math Sciences Building, Box 951554 Los Angeles, CA 90095-1554, United States of America E-mail: ikukuyeva@stat.ucla.edu URL: http://www.stat.ucla.edu/~ikukuyeva/
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 31, Book Review 3 September 2009
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2009-09-25
+
+

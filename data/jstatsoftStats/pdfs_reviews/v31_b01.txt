@@ -1,0 +1,24 @@
+JSS Journal of Statistical Software
+
+September 2009, Volume 31, Book Review 1.
+
+http://www.jstatsoft.org/
+
+Reviewer: Adrian Bowman University of Glasgow
+Morphometrics with R
+Julien Claude Springer-Verlag, New York, 2008. ISBN 978-0-387-77789-4. 316 pp. USD 59.95. http://www.springer.com/978-0-387-77789-4
+Readers who are not familiar with the term `morphometrics' may find a definition helpful and this book provides one in the opening page. It is `the statistical study of shape and size and their covariations with other variables'. Those from the statistical community might more commonly use the term `statistical shape analysis' whereas `morphometrics' is generally used by researchers in biological applications. The title of the book therefore gives an important and helpful cue on its orientation. It discusses a wide range of methods and approaches to shape and size, covering the role of standard statistical methods, the more specialist techniques associated with landmarks and registration methods, as well as describing some more advanced methods including the analysis of outlines, the use of relative warps and links with phylogenetics. R is an integral part of the development of the material throughout the book. In terms of general statistical content, the introductory chapter begins with elementary methods of plotting and simple analysis but moves very rapidly towards more advanced techniques which will be used later in the book. This includes MANOVA, clustering and references to techniques such as the singular value decomposition. This gives the impression that readers are expected to have reasonable familiarity with statistical thinking and methods, with the introductory material providing a brief refresher. The technical content of later chapters includes Bezier polynomials, Fourier analysis and reference to shape space. Brief explanations and references are given for these techniques but the speed of development will make the material more suitable for those who are already familiar with these methods, as indeed is highly likely for those working in morphometrics. A key feature of the book is the extensive use of R, both through the direct use of code and through references to a large number of packages relevant to the morphometrics area. The author is a strong advocate of R and is keen to persuade his readers of its advantages. The introductory chapter gives a brief introduction to some simple structures and syntax while the following chapter discusses the acquisition, storage and manipulation of data, with a particular emphasis on images, using tools available in a variety of packages. Later chapters on different types of analysis make extensive reference to a wide variety of other packages, thereby introducing readers to an extensive collection of useful tools. However, there is also
+
+2 Morphometrics with R
+a strong emphasis on writing R directly, and on creating simple R functions. This gives the reader a good opportunity to engage with data analysis directly. Some of the code sections are substantial and new users may find these demanding. Where tools are available in other packages this will be the most productive route for regular data analysis. However, readers who wish to engage with R in earnest may well find the opportunity to review these code sections very useful. The final chapter of the book gives further advice on Going Further with R through simulations, writing functions and interfacing with other systems. This is an interesting book and I certainly learned new things by reading it. Its particular contribution is to bring together a wide variety of tools, both statistical and computational, which are relevant to morphometrics and to present these in a very practical manner through R. Those who are new to the topic are likely to gain most value from the book once they have gained some familiarity with at least some of the tools involved. However, the synthesis of tools presented here will undoubtedly lead readers into contact with, and subsequent understanding of, a wider array of methods at a very practical level.
+Reviewer:
+Adrian Bowman Department of Statistics The University of Glasgow Glasgow G12 8QQ, United Kingdom E-mail: adrian@stats.gla.ac.uk URL: http://www.stats.gla.ac.uk/~adrian/
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 31, Book Review 1 September 2009
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2009-09-19
+
+

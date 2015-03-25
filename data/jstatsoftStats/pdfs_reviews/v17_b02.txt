@@ -1,0 +1,28 @@
+JSS Journal of Statistical Software
+
+December 2006, Volume 17, Book Review 2.
+
+http://www.jstatsoft.org/
+
+Reviewer: Robert Gentleman Fred Hutchinson Cancer Research Center
+Developing Statistical Software in FORTRAN 95
+David R. Lemmon, Joseph L. Schafer Springer-Verlag, New York, 2005. ISBN 0-387-23817-4. 328 pp. USD 59.95 (P). http://methcenter.psu.edu/fortranbook/thebook.html
+
+This book is 323 pages long, consisting of 8 chapters, with a bibliography and index. The first chapters introduce FORTRAN 95 and provide some discussion of scientific software development. Chapters 5 through 8 primarily focus on either developing a user interface, or connecting to other software that provides a user interface. Thus, the primary focus is in making routines available to others, not on writing them.
+The book is well written and is divided into chapter and sections which are coherent. There are exercises for all chapters, but no indication of difficulty is given. Code examples can be downloaded from the internet and compiled on the reader's computer. While the authors did not test their code using gfortran, I did and the examples for Chapter 2 worked.
+The references are very terse and while there is substantial discussion of how to link to a variety of different programs the emphasis is clearly on development under Microsoft Windows (the last three chapters are devoted to DLLs and the COM interface).
+There is a brief discussion of object-oriented programming but since FORTRAN 95 does not support it, it seems out of place. The authors do not mention, although they use, the notion of abstract data types. FORTRAN 95 has modules which provide a form of name space management (again there are good examples of its use in the text) that is essential to good software engineering.
+Overall the book seems like a good resource for someone that already knows some dialect of FORTRAN and wants to learn a bit about what is new in FORTRAN 95, another reference manual will be needed for software development. It will be of most use to those who have small functions that they want to make available to others by implementing some form of user interface.
+
+2 Developing Statistical Software in FORTRAN 95
+Reviewer:
+Robert Gentleman Program in Computational Biology Division of Public Health Sciences Fred Hutchinson Cancer Research Center 1100 Fairview Ave. N, M2-B876 PO Box 19024 Seattle, Washington 98109-1024, United States of America E-mail: rgentlem@fhcrc.org URL: http://gentleman.fhcrc.org/
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 17, Book Review 2 December 2006
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2006-12-05
+
+

@@ -1,0 +1,24 @@
+JSS Journal of Statistical Software
+
+April 2009, Volume 30, Book Review 5.
+
+http://www.jstatsoft.org/
+
+Reviewer: Dirk Eddelbuettel Debian Project
+Analysis of Integrated and Cointegrated Time Series with R (2nd Edition)
+Bernhard Pfaff Springer-Verlag, New York, NY, 2008. ISBN 978-0-387-75966-1. 188 pp. USD 54.95. http://www.pfaffikus.de/springer.html
+Analysis of Integrated and Cointegrated Time Series with R (2nd Edition) by Bernhard Pfaff offers a rigorous introduction to unit roots and cointegration, along with numerous examples in R to illustrate the various methods. The book, now in its second edition, provides an overview of this active area of research in time series econometrics. It manages to be thorough (using formal notation), yet remains applied in its focus. A number of examples are discussed, often by using datasets from the original publications. Code examples are provided throughout, frequently using the contributed packages urca and vars by the same author. The book is compromised of three parts that build on top of each other. The first part, entitled Theoretical Concepts, contains four chapters that review the mathematical background material. The reader is re-acquainted with the most important notations concerning stationary time series, first univariate and then multivariate series introducing vector autoregressive models (VAR) and structural vector autoregressive models (SVAR). The coverage of the material is fairly technical at about the textbook level. Next, the background material for non-stationary time series is discussed before a review of cointegration ends the first part. The second part is devoted to unit root testing. The five standard tests--from the initial approach by Dickey and Fuller to Phillips and Perron, followed by the methods of Elliot, Rothenberg and Stock as well as Schmidt and Phillips before concluding with the test by Kwiatkowski, Phillipp, Schmidt and Shin--are reviewed in some detail in the fifth chapter before the sixth chapter discusses related topics such as structural breaks and tests for seasonal unit roots. The third and final part covers cointegration. It starts with a discussion of the single-equation case and covers the two main approaches by Engle and Granger, and by Phillips and Ouliaris, respectively. The main part of the chapter discusses multi-equation methods including vector error correction models (VECM). The Johansen and Juselius maximum-likelihood approach is covered is detail. Structural breaks and shifts in the data are discussed, as are structural vector error correction models.
+
+2 Analysis of Integrated and Cointegrated Time Series with R (2nd Edition)
+Overall, this books is a very welcome addition to the Use R! series as it provides a thorough overview of unit root and cointegration methods. Pfaff, as the author of urca and vars, the two principal R packages in this area, provides the reader with both the theoretical and practical tools to study and replicate the seminal works in the area, and to apply these methods to new data sets. The second edition also adds new material on VAR and SVAR models which strengthens the coverage of multivariate methods. The only major shortcoming of the book may be its formal writing style which is too reminiscent of a lecture notes title. Additional case studies based on publicly available data sets could have loosened up the presentation by providing application examples. Despite this omission, the book can clearly be recommended to both researchers and practitioners in time series econometrics.
+Reviewer:
+Dirk Eddelbuettel Debian Project Chicago, IL, United States of America E-mail: edd@debian.org URL: http://dirk.eddelbuettel.com/
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 30, Book Review 5 April 2009
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2009-04-27
+
+

@@ -1,0 +1,24 @@
+JSS Journal of Statistical Software
+
+August 2010, Volume 36, Book Review 1.
+
+http://www.jstatsoft.org/
+
+Reviewer: Joseph M. Hilbe Arizona State University
+Bayesian Analysis for Population Ecology
+Ruth King, Byron J. T. Morgan, Olivier Gimenez, Stephen P. Brooks Chapman & Hall/CRC, Boca Raton, Florida, 2010. ISBN 978-1-4398-1187-0. 442 pp. USD 79.95. http://www.ncse.org.uk/books/bayesian/
+The text is essentially a book on Bayesian methodology with examples taken from population ecology. In this respect it serves as a solid introduction to Bayesian modeling. The book also incorporates instruction on the use of both R and WinBUGS for constructing and executing Bayesian models. Three appendices come with the text: A, a description of the major probability distributions employed in Bayesian models; B, a tutorial on R, specifically on developing Markov chain Monte Carlo (MCMC) and reversible jump MCMC (RJMCMC) functions. A step-by-step approach to modeling provides the reader with excellent schemata of how to model their own data. Finally, Appendix C is a tutorial on programming with WinBUGS, with an emphasis of calling WinBUGS from within R. Both tutorials are very well done. The main text is divided into three main parts. The first addresses classical frequentist methods. The second provides a thorough overview of Bayesian methodology, and the third relates to the use of more complex Bayesian models using population ecological data. Chapter 7, the final chapter of part 2, is a central chapter in the book. After reading the Appendices for a basic education in Bayesian modeling and MCMC procedures in particular, Chapter 7 gives more depth to the analyses. The reader is asked to download the example data and relevant libraries, and to use the code provided in R, WinBUGS and Mark, a progam designed for analyzing capture-recapture data within the classical framework. A clear discussion of how to define priors, the likelihood function, the data and initial values, and both trace and autocorrelation plots of the parameters. Complete code is also given for modeling uncertainty. Models discussed in the third section, titled "Ecological Applications", include handling missing values, modeling random effects, multiple-state models, and state-space models. A final chapter is provided that speaks to strictly a population ecological problem: handling closed populations. The authors have produced a text that is not only of good use to those who are analyzing population ecological data, but to anyone desiring a good overview of Bayesian modeling in general. The examples are interesting and do not hinder those not in the discipline of
+
+2 Bayesian Analysis for Population Ecology
+population ecology from understanding the explanation of the statistical principles being discussed. I recommend the book for a graduate level course on Bayesian modeling, as well as any course related to the Bayesian modeling of population ecological data. The reader is not expected to have a prior knowledge of Bayesian modleing, nor is there an assumption that readers are familar with R or WinBUGS. Only a well-rounded knowledge of classical linear statistical modeling is required.
+Reviewer:
+Joseph M. Hilbe University of Hawaii, and Sociology and Statistics, Arizona State University Tempe, Arizona, United States of America E-mail: hilbe@asu.edu
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 36, Book Review 1 August 2010
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2010-08-08
+
+

@@ -1,0 +1,24 @@
+JSS Journal of Statistical Software
+
+April 2010, Volume 34, Book Review 2.
+
+http://www.jstatsoft.org/
+
+Reviewer: Carolin Strobl Ludwig-Maximilians-Universita¨t Mu¨nchen
+Advances in Social Science Research Using R
+Hrishikesh D. Vinod (ed.) Springer-Verlag, New York, 2010. ISBN 978-1-4419-1763-8. 205 pp. USD 79.95. http://www.springer.com/978-1-4419-1763-8
+In the introduction of Advances in Social Science Research Using R, the editor gives valuable short summaries of all chapters to point out that each one is of relevance beyond the scope of the dicsiplines where the methods or the authors originate. But it is not only the variety of scientific fields that makes this proceedings volume so diverse ­ the chapters also vary strongly in the audiences they seem to be addressing. Several chapters are well suited for social scientists interested in new methodology and how to use it in R. These chapters not only introduce advanced statistical techniques, but also walk the reader through their usage in R in a concise and yet instructive way (examples are given below). However, other chapters seem to focus on a much more specific audience: For example, the book starts with a chapter by B. D. McCullough on Econometric Computing with R, that will be very informative for scientific (R-)programmers, whereas the social scientist looking for an instructive example on how useful R can be in applied research may be rather intimidated. Yet other chapters show that (but not exactly how) complex econometric research questions can be addressed with R ­ and even though I found it a pity that no hands-on examples are given in these chapters, they do illustrate to the reader the variety of advanced methods now available in R. Of the chapters that I could imagine to be most valuable for the applied social scientist, I would like to point out a few examples: In Chapter 2, R. Koenker gives an introduction to additive models for quantile regression - a technique that is (just becoming more) established in the social sciences. Motivated by an example of childhood malnutrition in India, the flexibility of the method is illustrated. Both the formal definitions and the corresponding R code are given and explained, and a thorough interpretation of the results is provided. So this chapter is one of those that I think could directly help a social scientist with advanced statistical training to use the suggested procedures on his or her own data. Another good example is Chapter 5 by K. A. Markus and W. Gu on bubble plots as an
+
+2 Advances in Social Science Research Using R
+alternative plotting technique for the case of a continuous outcome with two continuous predictors. The chapter not only introduces common plotting alternatives and provides a walk-through for the function bp3way, that is available on the workshop website, but also reports an empirical study on how easy and correct different graphical illustrations can be interpreted. Both the particular code snippets for applying bp3way and the general discussion of approaches for graphical illustrations can be very valuable for applied researchers. Other examples in similar spirit are Chapter 8 by K. Imai, L. Keele, D. Tingley and T. Yamamoto on causal mediation, that adresses an established and important issue in the social sciences and provides instructive worked examples with R, as well as Chapter 7 by P. J. Foster and T Kecojevi´c on growth standards and Chapter 10 by D. Rindskopf on multinomial models, whose explanations are a little less detailed but also illustrate how R can be used directly for advanced analyses in social science (or public health, or any other) research. Chapter 3 by A. Gelman is again special in the sense that some parts will probably be appealing only to those with insider knowledge. Still, I am sure that a broad audience will profit directly from his examples on changing default settings for graphics ­ and may eventually even profit indirectly from his general point that users of statistical software should be able to specify the support of a variable in a type argument. So in summary, this is a great book for a great variety of audiences ­ but not every single chapter is equally well suited for a broader social sciences audience, as one might assume from the title.
+Reviewer:
+Carolin Strobl Ludwig-Maximilians-Universit¨at Department of Statistics Ludwigstr. 33 80539 Mu¨nchen, Germany E-mail: carolin.strobl@stat.uni-muenchen.de URL: http://www.stat.uni-muenchen.de/~carolin/
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 34, Book Review 2 April 2010
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2010-04-13
+
+

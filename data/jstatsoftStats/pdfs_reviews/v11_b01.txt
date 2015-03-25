@@ -1,0 +1,27 @@
+JSS Journal of Statistical Software
+
+June 2004, Volume 11, Book Review 1.
+
+http://www.jstatsoft.org/
+
+Reviewer: Vivian Lew University of California at Los Angeles
+SAS Programming: The One Day Course
+Neil H. Spencer Chapman & Hall/CRC, Boca Raton, Florida, 2003. ISBN 1-58488-409-6. 208 pp. $24.95.
+
+If you know little about SAS and desire a brief but detailed task-oriented overview of basic SAS commands, this is the book for you. It is a basic training manual that explains how the SAS system works with data. There is a generous amount of information addressing elementary SAS concepts (such as DATA and PROC steps); clear examples on retrieving data from other sources and exporting data (PROC IMPORT and EXPORT); working with permanent and temporary SAS data sets; basic modification of data; an introduction to the Output Delivery System (ODS), which enables you to generate HTML files for viewing with an Internet browser and finally an introduction to SAS macros. The version of SAS supported in the text is 8.2.
+Though brief, this book is extremely detailed. There is so much information packed into less than 200 pages that in order to extract the maximum benefit from the book, novice users will need more time than the book title suggests. Chapters are organized around specific tasks, such as producing tables in various formats, data management chores, importing datasets from other programs, or saving the output. A noticeable feature of the book is its clear, stepby-step programming examples that have been well documented. One outstanding feature of the book is the programs and the data have been made available via the Internet at http://www.crcpress.com/e_products/downloads/. As a result, new users of SAS will be able to follow closely, work the basic examples thoroughly and have the makings of a library of basic SAS programs.
+This book takes off and running immediately with only the briefest of introductions to the nature of SAS and its windowing system. From chapters 2 through 5, the author introduces the reader to data and basic programming (input of data, formatting, labeling, printing), dataset creation, storage, management and manipulation.
+At the midpoint of the text, chapters 6 and 7 assume some basic statistics knowledge (descriptive statistics) on the part of the reader. No real interpretation or instruction is given here. Results of the SAS procedures means, univariate, tabulate, and freq are used primarily as reporting tools and not analysis tools. For example, in the demonstration of a cross tabulation, no mention is made of the numerous tests of association which accompany the freq
+
+2 SAS Programming: The One Day Course
+procedure. Chapters 8 and 9 are devoted to the subject of output, specifically the Output Delivery System (ODS) and SAS Graph (for presentation quality graphics). The discussion on ODS is straightforward and useful: the reader is introduced to standard listing files, print files, HMTL, RTF and PDF files. Templates and programming examples allow the beginning SAS user to quickly acquire the ability to share output with SAS and non-SAS users. Chapter 10, the final chapter, is a very brief introduction to the macro language in SAS. Again, given the task oriented nature of the text, the reader is shown how to print out a dataset and construct a histogram using macros. The macros are quite fundamental and it is assumed that if the student feels there is a need to learn more about macros, a separate course or text is more appropriate. The pace of the text is relentless, but the weighting and emphasis of different topics is sensible with approximately half of the book devoted to data management issues and the remainder to producing summary information in SAS. The author assumes a fairly high level of comfort with pathnames in the Windows Operating system. In sum, this book is an excellent introduction to SAS. Many new SAS users will appreciate the wealth of SAS program files and data sets. Spencer has clearly documented every one of his programs, it is up to the diligent student to simply follow along. The title is somewhat misleading as the student who knows absolutely no SAS whatsoever will probably need more than a day to work through the ten chapters of this book. It is very clear, however, that the same student getting assistance from a knowledgeable SAS instructor could easily cover all of this material in a day and yet come away with a reasonably strong foundation upon which more SAS knowledge can be easily added.
+Reviewer:
+Vivian Lew University of California at Los Angeles Department of Statistics Los Angeles, CA 90095, USA Telephone: +310/206-6474 Fax: +310/206-5658 E-mail: vlew@stat.ucla.edu
+
+Journal of Statistical Software
+June 2004, Volume 11, Book Review 1.
+http://www.jstatsoft.org/
+
+Published: 2004-06-01
+
+

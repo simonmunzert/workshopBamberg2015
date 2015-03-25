@@ -1,0 +1,26 @@
+JSS Journal of Statistical Software
+
+February 2013, Volume 52, Book Review 4.
+
+http://www.jstatsoft.org/
+
+Reviewer: Norman Matloff University of California, Davis
+The R Student Companion
+Brian Dennis Chapman and Hall/CRC, Boca Raton, FL, 2012. ISBN 978-1439875407. 360 pp. USD 39.95 (P). http://www.crcpress.com/product/isbn/9781439875407
+An R book for high schoolers! This is an excellent idea, and the quality of the product is equally excellent. It may be suitable for non-calculus-based introductory courses at the college level as well. I believe there is a fairly broad consensus that the teaching of introductory statistics often shortchanges the students. Course use unmotivating examples are unmotivating, principles are reduced to mere formulas, and even the word statistics evokes an image of tedious computation. Though it evoked controversy, I side with Xiao-Li Meng's comments (Meng 2009) that the teaching of AP Statistics generally suffers from such problems. Dennis' point is that one partial remedy is to modernize the manner in which computation is done. Use of pocket calculators for teaching high school statistics is anachronistic, given the ubiquity of computers and the availability of open-source software such as R. Not only is R free, opposed to expensive calculators, but R has an overwhelming advantage over calculators in aspects such as graphics and ability to handle real data sets. The AP Statistics Development Committee, as well as the ASA Statistics Education Section, should find this notion of interest. This is a book about statistics and data, not programming. Loops are used only occasionally, and vectorization is barely mentioned. Functions are mainly called, rarely written. This de-emphasis of programming is the proper approach in my view, but a chapter previewing advanced topics in both statistics and programming might have been useful. There is more about mathematics than one would expect. Each of Chapters 8­12 has a mathematical title, such as Chapter 9's "Trigonometric Functions". This might be viewed as a negative by students and even some teachers. The author explains that a good math grounding is necessary for learning R. While this is true at some level, there is actually more math content than is typical even in an introductory college course. For example, I applaud Dennis for including material on multiple regression. As a topic that it is arguably the gateway to "real" statistics, this was an excellent choice for inclusion in the book. But I would question whether students at this level need to see the matrix formulation of linear models.
+
+2 The R Student Companion
+On the other hand, there is very little on statistical inference. For most students, introductory statistics will be the only exposure to the field they ever get. This is a shame, given how much statistics impacts their daily lives. For example, they will hear of margins of error in election surveys, and of one drug for hypertension being "significantly" better than another. They should be introduced to the meaning of such terms (and of the dangers in the latter one). Though there are some excellent discussions on the modeling process, I could find nothing on how models can mislead. Dennis does a good job dispelling the "steep learning curve" myth concerning R, starting in the preface and culminating in a final chapter titled "It Doesn't Take a Rocket Scientist" (a clever play on the astronomical content of that chapter). The writing style is clear and lively, and the examples should appeal to high school students. It is high time that introductory statistics be taught in an engaging manner that reflects our own enthusiasm for the subject, with meaningful data sets, attractive graphics and so on. Dennis' book is a fine contribution toward that goal.
+References
+Meng XL (2009). "Statistics: Your Chance for Happiness (or Misery)." Amstat News.
+Reviewer:
+Norman Matloff Department of Computer Science University of California, Davis Davis, CA, 95616, United States of America E-mail: matloff@cs.ucdavis.edu URL: http://heather.cs.ucdavis.edu/matloff.html
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 52, Book Review 4 February 2013
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2013-02-03
+
+

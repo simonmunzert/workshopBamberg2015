@@ -1,0 +1,26 @@
+JSS Journal of Statistical Software
+
+March 2005, Volume 12, Book Review 3.
+
+http://www.jstatsoft.org/
+
+Reviewer: Nicolas Christou University of California at Los Angeles
+Spatial Statistics and Computational Methods
+Jesper Moller Springer, New York, NY, 2003. ISBN 0-387-00136-0. 202 pp. $67.95 (P).
+
+Chapter 1 provides the reader with a very good overview of the MCMC methodology (Gibbs sampler and Metropolis-Hastings algorithm) which are used in the other chapters of the text. It can serve as a reading material for a graduate course that discusses these topics.
+Chapter 2 does an excellent job introducing model-based geostatistics. It is definitely a wellwritten chapter and can be used for a graduate course in spatial statistics, but can also be useful for researchers using spatial statistics. The authors present two examples that help the reader to understand the methodology used. The maximum likelihood estimation of the Gaussian spatial model is preferred over ordinary least squares fitting of a parametric variogram to the sample variogram. The authors mention two disadvantages of this method (computationally expensive, and lack of robustness), but they do not mention that the estimates are biased, and the bias can be large in small to moderate samples. However, they somehow imply this when they state that the restricted maximum likelihood estimation (which is also discussed) produces less biased estimates. In the case study of the Swiss rainfall data, the method of maximum likelihood is used to estimate the model parameters and use them for spatial prediction. Perhaps a comparison of these predicted values with those that ordinary kriging produces (using the fitting of a theoretical to the empirical variogram) would be interesting.
+Chapter 3 reviews Bayesian modeling and computing methods for image analysis and processing. It is a good tutorial, even though it only covers a small part of image analysis and computer vision.
+Chapter 4 deals with simulation-based inference for spatial processes. This is a very wellwritten chapter on the increasingly important topic of point processes. It is well suited for graduate students and experienced researchers in the field. Perhaps better examples could have been used, instead of the weed plants of a Danish barley field. There are many examples from science and technology that can be analyzed using sophisticated methods of spatial statistics such as MCMC methods presented in this chapter.
+
+2 Spatial Statistics and Computational Methods
+Reviewer:
+Nicolas Christou University of California at Los Angeles Department of Statistics Los Angeles, CA 90095, United States of America E-mail: nchristo@stat.ucla.edu URL: http://www.stat.ucla.edu/~nchristo/
+
+Journal of Statistical Software
+March 2005, Volume 12, Book Review 3.
+http://www.jstatsoft.org/
+
+Published: 2005-03-14
+
+

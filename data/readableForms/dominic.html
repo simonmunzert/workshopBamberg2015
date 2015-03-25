@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	
+		<title>Readability Test Results</title>
+
+		<meta name="viewport" content="width=650,user-scalable=true" />
+		<meta name="robots" content="noindex,nofollow" />
+		<meta name="ua" content="curl/7.39.0 Rcurl/1.95.4.5 httr/0.6.1" />
+
+		<link type="text/css"  href="http://fonts.googleapis.com/css?family=Rokkitt:400,700" rel="stylesheet" />
+		<link type="text/css" href="./css/screen.css" rel="stylesheet" media="screen" />
+		<link type="text/css" href="./css/ui.all.css" rel="stylesheet" />
+
+		<script type="text/javascript" src="./js/jquery-1.3.1.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.ui.all.js"></script>
+		<script type="text/javascript" src="./js/behaviours.js"></script>
+		
+	</head>
+	<body>
+
+
+		<div id="header">
+			<div id="bookmarklet"><a href="bookmarklet.html">Readability Test Bookmarklet</a></div>
+			<h1>
+				<a href="./"><span>The Readability Test Tool</span></a>
+			</h1>
+			<p>Let's make the unreadable readable</p>		
+		</div>
+
+		<div id="content">
+		
+<h2>Readability Test Results</h2>
+
+
+
+
+<p class="meanScore scale-c">
+	This page has an average <a href="http://en.wikipedia.org/wiki/U.S._grade_level#School_grades">grade level</a> of about 9.<br/><br/>
+	It should be easily understood by 14 to 15 year olds.</p>
+
+<p><a href="http://twitter.com/home?status=My+page+has+grade+level+of+%7E9+and+should+be+understood+by+14-15+year+olds+http%3A%2F%2Fwww.read-able.com%2F+%23readability">Tweet this result!</a></p>
+
+<!--
+<div class="readabilityText"><pre style="max-height: 200px;">
+	        			Posted by 
+	        				Dominic Nyhuis on December 19, 2014
+	        			
+	        		
+It is that time of year again: Truckloads of lights are dumped into store windows, people scramble to get their Christmas shopping done, and it is becoming increasingly unbearable to listen to the radio. Of course, the most important element of the season is still ahead of us – all across the Commonwealth people are eagerly awating the Queen's Christmas Broadcast. Well... let's assume they do for the purposes of this blog post. We figured that in order to shorten the wait, it might be fun to take a look back at the history of the speeches her Majesty has given over the years.
+Ever since 1952, the Queen has kept with the tradition of addressing her people as the year draws to a close. Let's begin by checking out the transcripts of her speeches. You can find them at http://www.royal.gov.uk/ImagesandBroadcasts/TheQueensChristmasBroadcasts/ChristmasBroadcasts/ChristmasBroadcast1952.aspx.
+Our aim is to scrape the first 50 Christmas Broadcasts the Queen has given – years 1952 to 2001 – and to play around with them a little in the second part of this post. For the scraping part of the exercise we rely on the Selenium framework and on the Rwebdriver package which provides an easy-to-use wrapper. The Selenium framework allows us to interact with a web browser from within R and to perform the scraping task almost as though we were doing it manually.
+If you haven't already done so, start by downloading the Rwebdriver package from Github using the functionality that is provided in the devtools package.
+Be sure to also have the Selenium server file on your machine. You can get it here. While we're at it, we also load the other packages that we need for the scraping excercise and the tiny analysis.
+Needless to say that we also need some awesome colors that we get from the wesanderson package...
+We begin by opening up a system prompt and initiate the server by running the file that we previously downloaded.
+Alterantively, we can invoke the selenium server from within R by using the system() command with the option wait set to FALSE.
+By the way, if all of this seems completely strange to you – the technical aspects, mind you, not the Queen! – you might want to check out chapter 9 in our book for more information. After this step, we open a window in the Firefox browser.
+The idea is simply to iterate over the URL printed above and to replace the years in each iteration. The resulting URLs are posted using the post.url() function and the source code is collected via page_source(). We parse the source code with functionality from the XML package (htmlParse()) and select the content of the speech with an XPath expression that looks for a content id in a div node. Specifically, we retain the value of the node via xmlValue, resulting in a character vector, where each entry corresponds to one paragraph in the speech. As the first paragraph is not part of the speech, but provides some background information on the historical circumstances of the speech, we discard it. In accordance with our rules of good scraping practice, we want to generate as little web traffic as possible. Therefore, we write the speeches to a folder Queens_Speeches so we don't have to perform the web scraping over and over if we have to go back to the exercise.
+Finally, we quit the session and terminate the server.
+To perform some simple analyses, we have to load the data back into R. To do so, we set up an empty list() to hold the speech data. Next, we iterate over the years and add them to the list using the readlines() function from base R. Purely for convenience, we collapse the paragraphs into one text as we do not make use of the structure of the texts. This is done using the str_c() function from the stringr package.
+First, we investigate the length of the Queen's speeches. We generate two vectors, queens.characters and queens.words, one containing the number of characters in each speech, the other containing the number of words. Both are filled by relying on the sapply() function to avoid unnecessary for-loops. The number of characters are counted using the nchar() function, while the words are counted as the number of word characters (\\w) using the str_count() function from the stringr package. Not surprisingly, the figure shows that we can safely assume that the number of characters are a very good approximation of the speech length.
+
+Let's check out the length of the speeches the Queen has given over the years. The second figure displays the number of characters in the speeches by year. We add a smoothing line to better make out trends in the data. We find that in the 1960s and early 1970s the Queen wanted to make sure to be home in time for supper, keeping it short and sweet. Conversely, she had a lot more to say in the 1980s and early 1990s. More recently, we observe a slight downward trend again – let's see whether this trend continues this year.
+
+One simple way for assessing the content of textual data are the popular word clouds. We generate two word clouds, one for the first 25 years of material (1952-1976), one for the years 1977-2001. Given the changing political landscapes, the figures are actually remarkably similar. Some interesting observations can be made, nonetheless. For example, the Queen has had a lot more to say about children in recent years, while the importance of the commonwealth has decreased in her speeches.
+
+
+As always, there are probably more interesting aspects hidden in the data. We encourage you to trace the steps in this blog post, to collect the data yourself and to play around with it.
+Have a Merry Christmas and a Happy New Year!
+Copyright © The Authors 2015
+</pre></div>
+-->
+
+
+
+
+<h3>Readability Indices</h3>
+<table>
+	<tr>
+		<th>Flesch Kincaid Reading Ease</th>
+		<td>66.1</td>
+		<td class="indicator"><div class="scale scale-d"></div></td>
+	</tr>
+	<tr>
+		<th>Flesch Kincaid Grade Level</th>
+		<td>8.1</td>
+		<td class="indicator"><div class="scale scale-d"></div></td>
+	</tr>
+	<tr>
+		<th>Gunning Fog Score</th>
+		<td>10.4</td>
+		<td class="indicator"><div class="scale scale-c"></div></td>
+	</tr>
+	<tr>
+		<th>SMOG Index</th>
+		<td>7.8</td>
+		<td class="indicator"><div class="scale scale-d"></div></td>
+	</tr>	
+	<tr>
+		<th>Coleman Liau Index</th>
+		<td>10.6</td>
+		<td class="indicator"><div class="scale scale-c"></div></td>
+	</tr>
+	<tr>
+		<th>Automated Readability Index</th>
+		<td>7.9</td>
+		<td class="indicator"><div class="scale scale-d"></div></td>
+	</tr>	
+</table>	
+
+
+<h3>Text Statistics</h3>	
+
+
+<table>
+	<tr>
+		<th>No. of sentences</th>
+		<td>61</td>
+		<td class="indicator"></td></td>
+	</tr>	
+	<tr>
+		<th>No. of words</th>
+		<td>999</td>
+		<td></td>
+	</tr>
+	
+	<tr>
+		<th>No. of complex words</th>
+		<td>107</td>
+		<td></td>
+	</tr>
+	
+	<tr>
+		<th>Percent of complex words</th>
+		<td>10.71%</td>
+		<td></td>
+	</tr>
+	<tr>
+		<th>Average words  per sentence</th>
+		<td>16.38</td>
+		<td></td>
+	</tr>	
+	<tr>
+		<th>Average syllables per word</th>
+		<td>1.47</td>
+		<td></td>
+	</tr>	
+</table>	
+
+
+
+
+			
+			<div id="whatItDoes" class="clear">
+				<h2>What do these results mean?</h2>
+				
+				<p>The indicator bars give a visual guide for the readability of the text. Red is a low readability score.  Green is easily readable.</p>
+				
+								
+				<h3>Flesch Kincaid Reading Ease</h3>
+				
+				<p>Based on a 0-100 scale. A high score means the text is easier to read.  Low scores suggest the text is complicated to understand.</p>
+
+				<code>206.835 - 1.015 x (words/sentences) - 84.6 x (syllables/words)</code>
+				
+				<p>A value between 60 and 80 should be easy for a 12 to 15 year old to understand.</p> 
+				
+				
+				
+				<h3>Grade Level indicators</h3>
+				
+				<p>These equate the readability of the text to the US schools grade level system.</p>
+				
+				
+				<h3>Flesch Kincaid Grade Level</h3>
+				
+				<code>0.39 x (words/sentences) + 11.8 x (syllables/words) - 15.59</code>
+				
+				
+				
+				<h4>Gunning Fog Score</h4>
+				
+				<code>0.4 x ( (words/sentences) + 100 x (complexWords/words) )</code>
+				
+				
+				<h4><acronym title="Simple Measure of Gobbledygook">SMOG</acronym> Index</h4>
+				
+				<code>1.0430 x sqrt( 30 x complexWords/sentences ) + 3.1291</code>
+				
+				
+				<h4>Coleman Liau Index</h4>
+				
+				<code>5.89 x (characters/words) - 0.3 x (sentences/words) - 15.8</code>
+				
+				
+				<h4>Automated Readability Index (ARI)</h4>
+				
+				<code>4.71 x (characters/words) + 0.5 x (words/sentences) - 21.43</code>
+				
+				<p>Coleman Liau and ARI rely on counting characters, words and sentence. The other indices consider number of syllables and complex words (polysyllabics - with 3 or more syllables) too.  Opinions vary on which type are the most accurate.  It is more difficult to automate the counting of syllable as the English language does not comply to strict standards!  </p>
+
+			</div>
+
+
+
+
+
+
+
+	
+				
+		</div><!--#content-->
+		
+		
+		<div id="footer">	
+			<div>
+				Copyright &copy; 2009-2014 <a href="http://davidsimpson.me/">David Simpson</a>. 
+				All rights reserved.
+			</div>
+
+			<ul>
+				<li class="first"><a href="/privacy-policy.html">Privacy Policy</a></li>
+				<li><a href="/terms-of-service.html">Terms of Service</a></li>
+				<li><a href="/press.html">Press</a></li>
+				<li><a href="https://getsatisfaction.com/read-able/">Feedback</a></li>
+				<li><a href="http://www.read-able.com/referer.php?id=content" title="Read Able. The Readability Test Tool">Readability Test</a></li>
+			</ul>
+
+			<p class="social">
+				<a href="http://www.facebook.com/ReadabilityTestTool"><img src="images/32x32-facebook.png" title="We're on Facebook"/></a>
+				<a href="http://www.twitter.com/readableapp"><img src="images/32x32-twitter.png" title="Follow us on Twitter"/></a>
+			</p>
+		</div><!--#footer-->
+
+
+
+
+        <script>
+                  
+			location.getParameter = function(item){
+				var svalue = location.search.match(new RegExp("[\?\&]" + item + "=([^\&]*)(\&?)","i"));
+				return svalue ? svalue[1] : svalue;
+			};
+
+			//usage
+			var mailchimpId = location.getParameter('mc_eid');
+          
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			if (mailchimpId === null) {
+				ga('create', 'UA-920590-2', 'auto');
+			} else {
+				ga('create', 'UA-920590-2', {'userId': mailchimpId});
+				ga('set', 'dimension1', mailchimpId); // also set a `customUserId` dimension at page level (for fun)
+			}
+			
+			ga('require', 'displayfeatures');
+			ga('send', 'pageview');
+
+        </script>
+
+	</body>
+</html>
+
+
+

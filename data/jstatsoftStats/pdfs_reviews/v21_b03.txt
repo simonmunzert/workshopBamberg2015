@@ -1,0 +1,24 @@
+JSS Journal of Statistical Software
+
+September 2007, Volume 21, Book Review 3.
+
+http://www.jstatsoft.org/
+
+Reviewer: Daniela Gumprecht Wirtschaftsuniversit¨at Wien
+Model-based Geostatistics
+Peter J. Diggle and Paulo J.Ribeiro Jr. Springer-Verlag, New York, 2007. ISBN 0-387-32907-2. xiii + 228 pp. USD 69.50. http://www.leg.ufpr.br/mbgbook/
+In this book statistical methods for the analysis of geostatistical data are described. Geostatistical data consist of a finite sample of measured values relating to an underlying spatially continuous phenomenon. The term model-based stands for an approach based on the application of formal statistical methods under an explicitly assumed stochastic model. The book is structured into three parts. The first one (Chapters 1 and 2) gives a general introduction and an overview of model-based geostatistics. In the second part (Chapters 3 and 4) linear and generalized linear geostatistical models are described. And the third part (Chapters 5 to 8) deals with associated methods for the analysis of geostatistical data, where classical as well as Bayesian approaches to parameter estimation are explained. The concepts and methods are illustrated by applying them in the analysis of real data sets. Most of these data sets can be downloaded from the book's website. All chapters, except of Chapter 8, include a computation section, where the authors show how to implement the discussed geostatistical methods with R software and contributed packages geoR and geoRglm. Each chapter closes with several theoretical and computational exercises. The target audience for this book are postgraduate statistics students and scientific researchers who are familiar with the standard tools for exploratory data analysis, regression modeling and statistical inference. The computation sections assume that the readers know how to use R for elementary statistics and graphics. For those who are not familiar with either the statistical or the software premises, the authors provide helpful literature references. Furthermore, the statistical background is summarized in the appendix. Chapter 1 starts with some motivating examples and a description of the corresponding data sets. Moreover, an introduction to the field of geostatistics and some general information about the terminology and notation, and the organization of the book are given. Chapter 2 provides an overview of model-based geostatistics. The various stages in the analysis of geostatistical data, which range from the design to spatial estimation and prediction, are described. Chapter 3 deals with Gaussian models for geostatistical data, which are quite popular in practice. A Gaussian spatial process is specified by its mean function and its covariance function.
+
+2 Model-based Geostatistics
+Several different covariance functions and geostatistical models are discussed. Chapter 4 is about generalized linear models (GLMs), which provide a unifying framework for regression modeling of continuous or discrete data. The classical GLM is extended to accommodate geostatistical data. Chapter 5 discusses classical parameter estimation. The authors describe how to formulate a suitable geostatistical model and how to estimate its parameters via least squares and maximum likelihood. Chapter 6 concerns spatial prediction, here different forms of kriging are explained. Chapter 7 is about Bayesian inference. Bayesian estimation and prediction for Gaussian linear models and generalized linear geostatistical models are presented and illustrated in various case studies. Chapter 8 finally deals with geostatistical design, i.e., with the question where to locate the sample points. For different purposes, e.g., efficient parameter estimation or spatial prediction, different designs are optimal. In summary, this book provides a very good insight into the field of model-based geostatistics. The authors succeed in getting the reader through the various stages and methods of analyzing geostatistical data. The book can be recommended to all who are interested in model-based approaches for the analysis of geostatistical data.
+Reviewer:
+Daniela Gumprecht Department of Statistics and Mathematics Wirtschaftsuniversita¨t Wien Augasse 2­6 A-1090 Wien, Austria E-mail: Daniela.Gumprecht@wu-wien.ac.at URL: http://statmath.wu-wien.ac.at/~gumprecht/
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 21, Book Review 3 September 2007
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2007-09-02
+
+

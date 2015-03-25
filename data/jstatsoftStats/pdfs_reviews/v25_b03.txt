@@ -1,0 +1,46 @@
+JSS Journal of Statistical Software
+
+May 2008, Volume 25, Book Review 3.
+
+http://www.jstatsoft.org/
+
+Reviewer: Jan de Leeuw University of California at Los Angeles
+Matrix Algebra
+James E. Gentle Springer-Verlag, New York, NY, 2007. ISBN 978-0-387-70872-0. 528 pp. USD 89.95 (P). http://mason.gmu.edu/~jgentle/books/matbk.htm
+A Matrix Handbook for Statisticians
+George A. F. Seber John Wiley & Sons, Inc., Hoboken, NJ, 2008. ISBN 978-0-471-74869-4. 559 pp. USD 110.00 (P). http://www.wiley.com/WileyCDA/WileyTitle/productCd-0471748692.html
+There are already quite a few books on matrix algebra for statisticians, most notably the ones by Harville (1997) and Healy (2000). In addition, there are books on numerical analysis for statisticians (or statistical computing) such as Thisted (1988) and Lange (1999), which cover a great deal of numerical linear algebra. And there are multivariate analysis books, which often also include material on matrices. The two books reviewed here are both comprehensive 500 page handbooks that update some of the earlier books. Tables of content can be found on the book Web pages given in the header of this review. Both books are welcome additions to the literature. They are quite different from each other, and, in a sense, complementary. The book by Gentle, which started as an update of Gentle (1998), is, by far, the more computational one. Part I of the book is numerical linear algebra. After the obligatory vector spaces we get matrix multiplication, factorizations, eigenvectors and eigenvalues, and solution of linear systems. In all cases there is some detail about the algorithms to compute the various decompositions and to solve the various equations. I am not sure how useful this emphasis on computation is. For the working statistician it is sufficient to know that MATLAB and R have solid state-of-the-art LAPACK versions of the algorithms. For the specialist in numerical methods the skeleton algorithms given in the book do not have enough implementation details. And for researchers really interested in the algorithms it makes more sense to look at Golub and Van Loan (1997) or the books by Stewart (1998, 2001). Part II of the book is of special interest to statisticians. Principal components, optimal design, the linear model, and the multivariate normal distribution are discussed in the context of
+
+2 Matrix Algebra / A Matrix Handbook for Statisticians
+matrix calculus. There is a small, but interesting, chapter on matrix derivatives and integrals involving matrices. And a chapter on special matrices (Vandermonde, Hankel, Helmert, Toeplitz, Hadamard, Cauchy, Perron, and friends) which occur in statistical applications. I think this is the best part of the book, but unfortunately it is much smaller than Part I.
+Part III discusses floating point computation and error analysis. This is not specific to matrix calculus, of course, but it is done well. It is somewhat surprising to have vector spaces at the beginning and floating point computation at the end. The software section of Part III uses thirty pages to go over C, C++, Fortran 77/95, IMSL, GSL, LAPACK, MATLAB/Octave, and R/S-PLUS. Clearly not much detail can be expected here. The chapter mostly consists of references, and of some small and not very convincing examples.
+Thus, it seems that Part I of the book is for those scientists, who are somewhat interested in matrix computation, but not too interested. The same is true for the computational and software chapters in Part III. Part II makes the case that Parts I and III are relevant for statistics. It does that reasonable well.
+One wonders if the book could be a possible textbook for a graduate course, but it seems to me that it is much too hefty for that. Ironically, the previous 1998 versions seems more appropriate. The book does have exercises, although not that many, and of course instructors teaching computational statistics courses will find these exercises useful. Maybe this is what Gentle means, when he says in the preface that "the book could serve as a basic reference either for courses in statistical computing or for courses in linear models or multivariate analysis". For instructors, not for students. Clearly the book is not at all suitable as a textbook for a linear model or multivariate analysis course, but it does contain much useful supplementary material.
+The book by Seber is more mathematical and, in a sense, also more statistical. In many respects it is similar to Harville (1997), although with less emphasis on the linear model. It has about the same number of pages as Gentle, but does not pay attention to numerical analysis and to software. Thus, it is very much less computational. It does not have complete proofs, but for most results it indicates where proofs can be found. Omitting proofs is a wise choice, because it saves a lot of space, but on the other hand it allows the author to cram an exhausting number of mathematical results into his 500 pages. And, as in the case of Gentle's book, one can wonder if researchers interested in matrix calculus would not be better off buying, for instance, Horn and Johnson (1985, 1991).
+As the title indicates, Seber's book is a "handbook". There are no small numerical examples, no exercises, far more formulas, and many more specialized chapters. The book is a reference text, which includes a huge number of results and many useful pointers to the literature. It is not intended as a textbook for a graduate course, where, in fact, it would be lethal.
+Seber also starts with the usual material on vector spaces and ranks, but after some 50 pages he dives into matrix calculus, and then, same as Gentle, never looks back. Standard matrix theory is treated in detail, of course, and so are the various special matrices. Even quaternions find their place. Here the two books have a great deal of overlap. In Seber, however, there are large chapters on matrix differentiation, Jacobians of matrix transformations, Kronecker and Hadamard products, generalized inverses, patterned and partitioned matrices, and matrixrelated probability distributions. There are even two chapters on inequalities, which seem somewhat out of place, and there is one rather tiny afterthought chapter on optimization.
+As I argued in the beginning, the books are quite different. Seber's book is a matrix algebra
+
+Journal of Statistical Software ­ Book Reviews
+
+3
+
+book, while Gentle's book is a numerical linear algebra book. Both have many applications and specializations inspired by statistics, and for both books that is their strength. But, for both books, one can also wonder if the statistics part really justifies their existence (or, equivalently, their price). By far the largest number of pages discuss general matrix calculus, and general numerical analysis, and in that area there are many excellent and eminently readable classical books available. And these classics are also less expensive, because the fact that they are classics makes them available in paperback.
+
+References
+Gentle JE (1998). Numerical Linear Algebra for Applications in Statistics. Springer-Verlag, Berlin.
+Golub GH, Van Loan C (1997). Matrix Computations. Third edition. Johns Hopkins University Press, Baltimore.
+Harville DA (1997). Matrix Analysis from a Statistician's Perspective. Springer-Verlag, Berlin. Healy MJR (2000). Matrices for Statistics. Clarendon Press, Oxford. Horn RA, Johnson CR (1985). Matrix Analysis. Cambridge University Press, Cambridge. Horn RA, Johnson CR (1991). Topics in Matrix Analysis. Cambridge University Press,
+Cambridge. Lange K (1999). Numerical Analysis for Statisticians. Springer-Verlag, Berlin. Stewart GW (1998). Matrix Algorithms. Volume I: Basic Decompositions. SIAM, Philadel-
+phia. Stewart GW (2001). Matrix Algorithms. Volume II: Eigensystems. SIAM, Philadelphia. Thisted RA (1988). Elements of Statistical Computing. Chapman & Hall, New York.
+
+Reviewer:
+Jan de Leeuw University of California at Los Angeles Department of Statistics Los Angeles, CA 90095-1554, United States of America E-mail: deleeuw@stat.ucla.edu URL: http://gifi.stat.ucla.edu/
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 25, Book Review 3 May 2008
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2008-05-25
+
+

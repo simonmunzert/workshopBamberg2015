@@ -1,0 +1,26 @@
+JSS Journal of Statistical Software
+
+February 2007, Volume 17, Book Review 6.
+
+http://www.jstatsoft.org/
+
+Reviewer: Sylvain Sardy and Valerie Chavez-Demoulin Swiss Federal Institiute of Technology
+Modeling Financial Time Series with S-PLUS (Second Edition)
+Eric Zivot and Jiahui Wang Springer-Verlag, Carey, NC, 2006. ISBN 0-387-27965-2. 998 pp. USD 69.95 (P). http://faculty.washington.edu/ezivot/MFTS2ndEditionAdditions.htm
+This book is the second edition of the previous version Modeling Financial Time Series with S-PLUS of 2003. Chapters 18 through 23 are new and cover nonlinear time series models, copulas, continuous-time models for financial time series, generalized method of moments, seminonparametric conditional density models, and efficient method of moments. There is also a new Section 4.6 entitled "Efficient Unit Root Tests", pages 132 to 138 in Chapter 4 on unit root tests. For a thorough review of the first edition, we refer to McNeil (2004). The book has a double function. First, it serves as a guide to models and estimation methods for extracting information from financial time series, and second, as a user's guide for Insightful's S+FinMetrics package. That makes it interesting for mainly two communities of readers: the academic community in econometrics, statistics and finance, and the practitioners in the finance industry. Regardless of the reader's background, we believe it is necessary to acquire an S-PLUS license with the S+FinMetrics module to use this book, which may require a significant investment whether working in an academic institution or a bank. The S+FinMetrics module contains a considerable number of key functions and illustrative examples. In parallel to the module, the book covers extensive material on classical and modern, univariate and multivariate, time series modeling and estimation methods. As such, the book provides an excellent support to a course in statistics for finance, and a great help to practitioners looking for examples and tools to analyze their own time series. In particular, students and practitioners will find it convenient to get graphical and numerical results by using well-documented functions. The way the book is written offers a practical and efficient start in the field of financial time series modeling, and provides a comprehensive list of references for the ones interested in deeper material. For the practitioner in the financial industry, the book ideally provides all the material essential to a practical analysis of financial time series. The examples treated in each chapter make the practical implementation very easy if the practitioner knows exactly which methods can or cannot be used for his specific application. In that respect, from a pedagogical point-of-view, the reader could be warned along the book not to use as `black boxes' the easy-to-use S+FinMetrics functions, by pointing to potential danger if some functions are not used properly.
+
+2 Modeling Financial Time Series with S-PLUS
+Because some sections and libraries are taken from various sources, the book sometimes gives the feeling of a lack of unity, however. Chapter 3 could have served as a mean to unify the whole book by pointing to the subsequent chapters, by highlighting their specific relevance in the context of time series modeling. For example, Section 3.5 on multivariate time series could point to Chapters 10 to 15, and could explain to what questions and problems these chapters answer; Chapter 19 on copulas could also easily belong to this succession of chapters, by being Chapter 16 instead of Chapter 19. Likewise, Chapters 17, 21 and 23 could be grouped together as techniques of estimation. We find that writing another chapter where a few time series would be jointly analyzed would be beneficial to the reader, for instance by working on the estimation of the (conditional) value-at-risk and by comparing the results provided by the techniques presented. This would help understand the links and complementarity between techniques. In summary this book is excellent to learn key methods and corresponding S+FinMetrics functions to analyze financial time series.
+References
+McNeil AJ (2004). "Review of `Modeling Financial Time Series with S-PLUS'." Journal of the American Statistical Association, 99(466), 564­565(2).
+Reviewer:
+Valerie Chavez-Dumoulin Swiss Federal Institute of Technology Department of Mathematics CH 8092 Zurich Switzerland E-mail: valerie@math.ethz.ch URL: http://www.math.ethz.ch/~valerie/
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 17, Book Review 6 February 2007
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2007-02-09
+
+

@@ -1,0 +1,43 @@
+JSS Journal of Statistical Software
+
+January 2009, Volume 29, Book Review 3.
+
+http://www.jstatsoft.org/
+
+Reviewer: Sophie Achard Centre National de la Recherche Scientifique ­ GIPSA-lab
+The Statistical Analysis of Functional MRI Data
+Nicole A. Lazar Springer-Verlag, New York, 2008. ISBN 978-0-387-78190-7. 300 pp. USD 84.95. http://www.springer.com/978-0-387-78190-7
+
+Introduction
+The aim of this book is to provide an introduction to functional magnetic resonance imaging (fMRI) for statisticians and neuroscientists and cognitive psychologists. The book gives an extensive description of many analysis pathways developed recently in fMRI data processing. The varied topics are described firstly in a very comprehensible fashion for non-statisticians. In addition, most of the explanations are supported by clear and accurate statistical justifications. Thus, statisticians will find in this book the scientific issues which researchers are facing when analyzing fMRI data, and neuroscientists will find a summary of many different methods to tackle fMRI data exploration.
+The emphasis is on the necessary development of efficient statistical methods to explore fMRI data which are complex (correlation in time and space) and massive (hundreds of thousands of time series for a single subject). For each approach, an exhaustive description is followed by interpretations and positive or negative comments of the author which are very useful for appreciating the intrinsic properties of the different approaches. This book is very easy to read, and each chapter can be read separately. It is also well illustrated by real data and links to software.
+However, I regret that the book ignores resting state fMRI data analysis. The design of an fMRI experiment is not limited to just block and event-related designs but also includes non-task designs. Recently, many studies have shown the essential role of the exploration of the resting state fMRI (one can cite for example Fox and Raichle 2007; Vincent et al. 2007). Several of the methods presented in this book are not appropriate in this case, because of the absence of stimuli. Some of the methods could be adapted, however, with slight modifications.
+Book content
+Chapters 1 and 2 describe the elementary notions of fMRI data acquisition.
+
+2 The Statistical Analysis of Functional MRI Data
+Chapter 3 deals with several crucial steps when working on fMRI data: handling the noise present in the acquired data, and methods recommended for preprocessing of fMRI images. Beginners in fMRI analyses should be cautious when working with such complex data. This chapter describes the necessary steps before starting to interpret results from fMRI data. Preprocessing is a complex but compulsory step in order to avoid false interpretations of the results. This chapter is very well documented. The author gives not only the corresponding references dealing with these problems but also she explains why they are so crucial. Nowadays, we often encounter papers and talks where no mention is made of preprocessing. This chapter clarifies the necessity to make clear the different steps of the preprocessing in order to understand better the results. Chapter 4 is the statistical core of this book. It presents succintly all the statistical issues in fMRI data analysis described in the following chapters of the book. Chapters 5 to 11 deal with specific methods developed to analyze fMRI data. The author separates these chapters using statistical issues identified in Chapter 4. From a non-statistician's point of view, it can be difficult to understand the link between all these different chapters, and thus to focus the reading on a specific chapter without already knowing the objective of the methods. Nethertheless, these chapters are always very well documented and they present an infinite source of references that focus on the pros and cons of the different approaches. I regret in Chapter 7 that the description of independent component analysis (ICA) is confusing. Some references are missing to acknowledge the initial work dealing with ICA (Ans et al. 1985; Comon 1994). However, the difficulties induced by the complexity of the ICA approach are explained very clearly as well as the difficulty to interpret the results given by the ICA components. Chapter 12 contains a case study, which is very useful to guide the reader with a concrete and simple example of fMRI data analysis. Finally, the description of software given in the appendix provides a list of the principal programs used in fMRI data analysis with their advantages and drawbacks. I would have appreciated finding more software freely distributed such as that used with R.
+Conclusion
+As the author has indicated, a book on fMRI data analysis cannot describe all the possible approaches, and one has to make a choice in describing specific ones. The choice made by the author is very judicious, and the book is rather easy to read. The author succeeds in making it accessible to both statisticians and neuroscientists; collaborative work between these two groups is crucial in order to develop efficient fMRI data analysis. This book provides a very clear overview of a variety of statistical approaches for fMRI data analysis. It is highly appreciated to be able to read such honest and thoughtful reflections on fMRI data analysis.
+References
+Ans B, H´erault J, Jutten C (1985). "Adaptive Neural Architectures: Detection of Primitives." In "Proceedings of COGNITIVA'85," pp. 593­597. Paris, France.
+
+Journal of Statistical Software ­ Book Reviews
+
+3
+
+Comon P (1994). "Independent Component Analysis, a New Concept?" Signal Processing, 3(36), 287­314.
+Fox M, Raichle M (2007). "Spontaneous Fluctuations in Brain Activity Observed with Functional Magnetic Resonance Imaging." Nature Reviews Neuroscience, 8(9), 700­711. doi:10.1038/nrn2201.
+Vincent JL, Patel GH, Fox MD, Snyder AZ, Baker JT, Essen DCV, Zempel JM, Snyder LH, M MC, Raichle ME (2007). "Intrinsic Functional Architecture in the Anaesthetized Monkey Brain." Nature, 447(7140), 83­86. doi:10.1038/nature05758.
+
+Reviewer:
+Sophie Achard CNRS, GIPSA-lab Department of Image and Signal Domaine Universitaire ­ BP 46 38402 Grenoble, France E-mail: sophie.achard@gipsa-lab.inpg.fr URL: http://www.gipsa-lab.inpg.fr/
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 29, Book Review 3 January 2009
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2009-01-02
+
+

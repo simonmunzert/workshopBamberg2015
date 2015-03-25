@@ -1,0 +1,35 @@
+JSS Journal of Statistical Software
+
+January 2010, Volume 33, Book Review 1.
+
+http://www.jstatsoft.org/
+
+Reviewer: A. Talha Yalta TOBB University of Economics and Technology
+Hands-On Intermediate Econometrics Using R
+Hrishikesh D. Vinod World Scientific Publishing Co. Pte. Ltd., Singapore, 2008. ISBN 978-981-281-885-0. 512 pp. USD 83.00. http://www.worldscibooks.com/economics/6895.html
+The R statistical environment is rapidly becoming widely popular among economists inside corporations and academia. As a result, we now see a number of recently published books such as Cryer and Chan (2008), Kleiber and Zeileis (2008), and Pfaff (2008) which focus on econometrics using R (see Eddelbuettel 2009a,b, for reviews of the latter two) Vinod's book differs from the others and stands on its own merits with its hands-on approach using a large collection of R program snippets that discuss and illustrate how to apply a variety of modern econometric techniques. The book has eleven chapters. The first chapter takes production function estimation as an example and presents elementary econometric methods as well as the basics of the R software system. Topics include various data analysis tools, multiple regression, singular value decomposition, ridge regression, and collinearity. Chapters 2 and 3 focus on univariate and bivariate time series analysis respectively. Included along with the standard topics are some advanced ones such as mean reversion and long memory. Chapter 4 provides an extensive discussion of the utility theory and its empirical implications including stochastic dominance up to fourth order. Chapter 5 returns to time series analysis and deals mainly with vector autoregression (VAR) models. It also includes a nice discussion of canonical correlation analysis, which arguably deserves more attention than it currently receives in econometrics. Chapter 6 is on simultaneous equation models and estimation including instrumental variables (IV), two-stage and three-stage least squares as well as the limited information and the full information maximum likelihood methods. Chapter 7 is dedicated to limited dependent variable models such as tobit and heckit. It also does a good job explaining survival models as well as the generalized linear model (GLM)1 approach popular in biostatistics but less familiar in econometrics. Discussed in Chapter 8 is the empirical analysis of consumer behavior based on the ordinary least squares (OLS) estimation of the random walk model followed by kernel regression and Wiener-Hopf dynamic optimization. Chapter 9 examines single, double,
+1Econometricians sometimes confuse the term generalized linear model with the multivariate general linear model. Vinod uses the correct term "generalized" on pages 192 and 449 but there are two typos on pages 295 (line 8) and 341 (line 3) where the incorrect term "general" is used.
+
+2 Hands-On Intermediate Econometrics Using R
+and maximum entropy bootstraps, while Chapter 10 focuses on the generalized least squares (GLS) and the generalized method of moments (GMM) estimators. The final Chapter 11 discusses some further nonlinear methods and tools such as Box-Cox transformation, scatterplot smoothing, and projection pursuit regression (PPR). It is evident that the book's topics are influenced by the author's own research, which is quite extensive. Still, the book does not include some of the standard sections in an econometrics textbook such as heteroscedasticity or panel data models. On the other hand, for the topics included, it provides a relatively more detailed discussion of the economic theory as well as how to apply the related econometric methodology using the R language. The some 170 code snippets included in the book employ an extensive use of comments and are helpful for understanding the various econometric techniques. They emphasize the econometric approach and readability rather than efficiency and optimal usage of the language. Consequently, experienced R programmers will notice that, written for novices, the snippets sometimes use avoidable for loops, and do not always use some powerful tools available in R. Also, perhaps due to his background in GAUSS and Fortran languages, Vinod frequently employs the assignment operator = instead of <- preferred in R. This generally does not create a big problem except necessitating some additional work toward making the snippets runnable in S-PLUS. The book also comes with a CD-ROM including all of the code snippets, which makes running the examples and replicating the results a simple matter of copy and paste. Furthermore, Vinod's web page, located at http://www.fordham.edu/economics/ vinod/Book2008.htm, provides a considerable number of additional exercises intended to accompany the book. In conclusion, this book provides an excellent hands-on learning opportunity of many modern econometric techniques using the R language. It comes with the data and the code that replicate results in various published studies across a wide range of topics and its novel approach makes it easy to understand how economic theory and the various methods are implemented in the real world. It is strongly recommended to students as well as working economists and also as a supplemental textbook for most applied econometrics courses.
+References
+Cryer JD, Chan KS (2008). Time Series Analysis: With Applications in R. 2nd edition. Springer-Verlag, New York.
+Eddelbuettel D (2009a). "Review of `Analysis of Integrated and Cointegrated Time Series with R (2nd Edition)'." Journal of Statistical Software, Book Reviews, 30(5), 1­2. URL http://www.jstatsoft.org/v30/b05/.
+Eddelbuettel D (2009b). "Review of `Applied Econometrics with R'." Journal of Statistical Software, Book Reviews, 29(14), 1­3. URL http://www.jstatsoft.org/v29/b14/.
+Kleiber C, Zeileis A (2008). Applied Econometrics with R. Springer-Verlag, New York.
+Pfaff B (2008). Analysis of Integrated and Cointegrated Time Series with R. 2nd edition. Springer-Verlag, New York.
+
+Journal of Statistical Software ­ Book Reviews
+Reviewer:
+A. Talha Yalta TOBB University of Economics and Technology Department of Economics Sogutozu Caddesi No:43 Sogutozu, Ankara, 06560 Turkey E-mail: yalta@etu.edu.tr URL: http://yalta.etu.edu.tr/index-en.html
+
+3
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 33, Book Review 1 January 2010
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2010-01-26
+
+

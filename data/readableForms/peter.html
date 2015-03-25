@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	
+		<title>Readability Test Results</title>
+
+		<meta name="viewport" content="width=650,user-scalable=true" />
+		<meta name="robots" content="noindex,nofollow" />
+		<meta name="ua" content="curl/7.39.0 Rcurl/1.95.4.5 httr/0.6.1" />
+
+		<link type="text/css"  href="http://fonts.googleapis.com/css?family=Rokkitt:400,700" rel="stylesheet" />
+		<link type="text/css" href="./css/screen.css" rel="stylesheet" media="screen" />
+		<link type="text/css" href="./css/ui.all.css" rel="stylesheet" />
+
+		<script type="text/javascript" src="./js/jquery-1.3.1.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.ui.all.js"></script>
+		<script type="text/javascript" src="./js/behaviours.js"></script>
+		
+	</head>
+	<body>
+
+
+		<div id="header">
+			<div id="bookmarklet"><a href="bookmarklet.html">Readability Test Bookmarklet</a></div>
+			<h1>
+				<a href="./"><span>The Readability Test Tool</span></a>
+			</h1>
+			<p>Let's make the unreadable readable</p>		
+		</div>
+
+		<div id="content">
+		
+<h2>Readability Test Results</h2>
+
+
+
+
+<p class="meanScore scale-c">
+	This page has an average <a href="http://en.wikipedia.org/wiki/U.S._grade_level#School_grades">grade level</a> of about 10.<br/><br/>
+	It should be easily understood by 15 to 16 year olds.</p>
+
+<p><a href="http://twitter.com/home?status=My+page+has+grade+level+of+%7E10+and+should+be+understood+by+15-16+year+olds+http%3A%2F%2Fwww.read-able.com%2F+%23readability">Tweet this result!</a></p>
+
+<!--
+<div class="readabilityText"><pre style="max-height: 200px;">
+	        			Posted by 
+	        				Peter Meissner on December 10, 2014
+	        			
+	        		
+Elections are the most important events of political life. Their results determine who gets to be in government for the next few years. But how long do
+elections and their results capture the public's attention? In this blog post we take a look at Wikipedia page access statistics to find out.
+Our weapon of choice will be R and the recently published
+wikipediatrend package that allows for convenient data retreival --
+be sure to check out wikipediatrend on
+CRAN
+and on GitHub for more
+information on the package.
+As a running example we rely on the federal elections in Germany which are covered by
+the German Wikipedia article
+Bundestagswahl. Since late 2007 (the earliest available data), Germany has had two national elections -- one in September of 2009 and one in September of 2013
+-- both resulting in governments led by Angela
+Merkel.
+First, we load the wikipediatrend package that will help in the data collection:
+We use the function wp_trend() to download the data and save it into bt_election. We specify page = "Bundestagswahl" to get counts for the  overview article. Furthermore, we set 2007-01-01 in the format yyyy-mm-dd as from date, de to get the
+German language flavor of Wikipedia, friendly = T to ensure automatic
+saving and reuse of downloaded data as well as userAgent = T to tell
+the server that the data is requested by an R user with the wikipediatrend
+package: 
+
+wikipediatrend running on:  x86_64-w64-mingw32 ,  R version 3.1.2 (2014-10-31)
+.
+We managed to get 2534 data points:
+... between 2007-12-10 and 2014-12-07 
+... that look as follows: 
+
+The public attention for the Wikipedia article peaks well above 35,000
+views per day and overall we find two distinct bulks of attention, one in late 2009 and one in late 2013.
+Let’s put some more effort into the visualization by splitting the counts
+into normals (lower 95% of the values) and those that are unusually large
+(upper 5% of the values).
+The following command visualizes the page access counts for the Wikipedia
+article Bundestagswahl from the German Wikipedia on a daily basis with
+red bars for the upper 5% of the values and black bars for the remaining 95%.
+The triangles at the top of the figure mark the two election
+dates -- 27th of September in 2009 and 22nd of September in 2013.
+
+Thanks go out to Domas Mituzas and User:Henrik for data and 
+API provided at stats.grok.se.
+Copyright © The Authors 2015
+</pre></div>
+-->
+
+
+
+
+<h3>Readability Indices</h3>
+<table>
+	<tr>
+		<th>Flesch Kincaid Reading Ease</th>
+		<td>54</td>
+		<td class="indicator"><div class="scale scale-c"></div></td>
+	</tr>
+	<tr>
+		<th>Flesch Kincaid Grade Level</th>
+		<td>10.6</td>
+		<td class="indicator"><div class="scale scale-c"></div></td>
+	</tr>
+	<tr>
+		<th>Gunning Fog Score</th>
+		<td>12.4</td>
+		<td class="indicator"><div class="scale scale-c"></div></td>
+	</tr>
+	<tr>
+		<th>SMOG Index</th>
+		<td>10.3</td>
+		<td class="indicator"><div class="scale scale-c"></div></td>
+	</tr>	
+	<tr>
+		<th>Coleman Liau Index</th>
+		<td>9.5</td>
+		<td class="indicator"><div class="scale scale-c"></div></td>
+	</tr>
+	<tr>
+		<th>Automated Readability Index</th>
+		<td>8.5</td>
+		<td class="indicator"><div class="scale scale-d"></div></td>
+	</tr>	
+</table>	
+
+
+<h3>Text Statistics</h3>	
+
+
+<table>
+	<tr>
+		<th>No. of sentences</th>
+		<td>22</td>
+		<td class="indicator"></td></td>
+	</tr>	
+	<tr>
+		<th>No. of words</th>
+		<td>427</td>
+		<td></td>
+	</tr>
+	
+	<tr>
+		<th>No. of complex words</th>
+		<td>69</td>
+		<td></td>
+	</tr>
+	
+	<tr>
+		<th>Percent of complex words</th>
+		<td>16.16%</td>
+		<td></td>
+	</tr>
+	<tr>
+		<th>Average words  per sentence</th>
+		<td>19.41</td>
+		<td></td>
+	</tr>	
+	<tr>
+		<th>Average syllables per word</th>
+		<td>1.57</td>
+		<td></td>
+	</tr>	
+</table>	
+
+
+
+
+			
+			<div id="whatItDoes" class="clear">
+				<h2>What do these results mean?</h2>
+				
+				<p>The indicator bars give a visual guide for the readability of the text. Red is a low readability score.  Green is easily readable.</p>
+				
+								
+				<h3>Flesch Kincaid Reading Ease</h3>
+				
+				<p>Based on a 0-100 scale. A high score means the text is easier to read.  Low scores suggest the text is complicated to understand.</p>
+
+				<code>206.835 - 1.015 x (words/sentences) - 84.6 x (syllables/words)</code>
+				
+				<p>A value between 60 and 80 should be easy for a 12 to 15 year old to understand.</p> 
+				
+				
+				
+				<h3>Grade Level indicators</h3>
+				
+				<p>These equate the readability of the text to the US schools grade level system.</p>
+				
+				
+				<h3>Flesch Kincaid Grade Level</h3>
+				
+				<code>0.39 x (words/sentences) + 11.8 x (syllables/words) - 15.59</code>
+				
+				
+				
+				<h4>Gunning Fog Score</h4>
+				
+				<code>0.4 x ( (words/sentences) + 100 x (complexWords/words) )</code>
+				
+				
+				<h4><acronym title="Simple Measure of Gobbledygook">SMOG</acronym> Index</h4>
+				
+				<code>1.0430 x sqrt( 30 x complexWords/sentences ) + 3.1291</code>
+				
+				
+				<h4>Coleman Liau Index</h4>
+				
+				<code>5.89 x (characters/words) - 0.3 x (sentences/words) - 15.8</code>
+				
+				
+				<h4>Automated Readability Index (ARI)</h4>
+				
+				<code>4.71 x (characters/words) + 0.5 x (words/sentences) - 21.43</code>
+				
+				<p>Coleman Liau and ARI rely on counting characters, words and sentence. The other indices consider number of syllables and complex words (polysyllabics - with 3 or more syllables) too.  Opinions vary on which type are the most accurate.  It is more difficult to automate the counting of syllable as the English language does not comply to strict standards!  </p>
+
+			</div>
+
+
+
+
+
+
+
+	
+				
+		</div><!--#content-->
+		
+		
+		<div id="footer">	
+			<div>
+				Copyright &copy; 2009-2014 <a href="http://davidsimpson.me/">David Simpson</a>. 
+				All rights reserved.
+			</div>
+
+			<ul>
+				<li class="first"><a href="/privacy-policy.html">Privacy Policy</a></li>
+				<li><a href="/terms-of-service.html">Terms of Service</a></li>
+				<li><a href="/press.html">Press</a></li>
+				<li><a href="https://getsatisfaction.com/read-able/">Feedback</a></li>
+				<li><a href="http://www.read-able.com/referer.php?id=content" title="Read Able. The Readability Test Tool">Readability Test</a></li>
+			</ul>
+
+			<p class="social">
+				<a href="http://www.facebook.com/ReadabilityTestTool"><img src="images/32x32-facebook.png" title="We're on Facebook"/></a>
+				<a href="http://www.twitter.com/readableapp"><img src="images/32x32-twitter.png" title="Follow us on Twitter"/></a>
+			</p>
+		</div><!--#footer-->
+
+
+
+
+        <script>
+                  
+			location.getParameter = function(item){
+				var svalue = location.search.match(new RegExp("[\?\&]" + item + "=([^\&]*)(\&?)","i"));
+				return svalue ? svalue[1] : svalue;
+			};
+
+			//usage
+			var mailchimpId = location.getParameter('mc_eid');
+          
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			if (mailchimpId === null) {
+				ga('create', 'UA-920590-2', 'auto');
+			} else {
+				ga('create', 'UA-920590-2', {'userId': mailchimpId});
+				ga('set', 'dimension1', mailchimpId); // also set a `customUserId` dimension at page level (for fun)
+			}
+			
+			ga('require', 'displayfeatures');
+			ga('send', 'pageview');
+
+        </script>
+
+	</body>
+</html>
+
+
+

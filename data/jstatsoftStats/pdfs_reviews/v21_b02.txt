@@ -1,0 +1,24 @@
+JSS Journal of Statistical Software
+
+August 2007, Volume 21, Book Review 2.
+
+http://www.jstatsoft.org/
+
+Reviewer: Chiara Sabatti University of California at Los Angeles
+The Statistics of Gene Mapping
+David Siegmund and Benjamin Yakir Springer-Verlag, New York, NY, 2007. ISBN 978-0-387-49684-9. 331 pp. USD 79.95(P). http://pluto.huji.ac.il/~msby/GeneMapping/genemapping.html
+"The Statistics of Gene Mapping" by David Siegmund and Benjamin Yakir is a welcome addition to the statistical genetics literature, that in fact includes a very small number of textbooks. The authors of this monograph have a clear didactic purpose. The book opens with preparatory chapters that cover the basics of Statistics, Genetics, as well as an introduction to R. The prior knowledge assumed here is really minimal, even if I doubt that a reader with so little background in both statistics and genetics would really be able to benefit from the book; but the authors are aiming at a broad audience, that may include experts in one of these fields needed an introduction to the other. In the remainder of the book, the authors made a series of choices informed by this didactic goal: (1) Each chapter closes with a series of exercises. (2) Almost all described methodologies are illustrated with examples of R code that students may want to reproduce and run. (3) Mathematical details (of varying difficulties) are omitted when the authors "did not think they gave added insight into the scientific issues." The authors are commendable for their efforts. The exercises at the end of the chapters will provide a useful pedagogical tool, with their mix of computer implementation and conceptual questions. The idea of introducing in the text print-outs of short R codes that implement the described methodologies is gaining popularity in monographs like these. While it somewhat interrupts the flow of the presentation, it provides the reader with the opportunity of `further digesting' the topics by attempting to code methods in first person. I did not receive any CD accompanying the book, so presumably the authors are imagining interested readers to type-in their own code and perhaps modifying it. This exercise would certainly be appreciated by the new generations of students who are rather computer savvy and appear to benefit a lot from exposure to computer experiments. Gene mapping efforts have been very substantial in the last decades and there has been a considerable growth of statistical methodologies. The authors opt for a birds-eye view,
+
+2 The Statistics of Gene Mapping
+delineating with broad strokes some fundamental topics, focusing first on mouse models and then on human genetics. The authors have to make some choices in deciding what to topics to cover in more detail. Not surprisingly, and quite appropriately, they devote more attention to areas of research to which they have contributed personally. I have particularly appreciated Chapter 5 that deals with the significance level for whole genome scans. This crucial topic has been hardly covered in books before, and a chapter introducing it, written by some of the scientists that contribute to establish one successful approach is a very welcome addition to the literature. As the authors themselves point out in the preface, the book is more selective in the treatment of statistical methods for human genetics--so that the reader cannot expect to find here a uniform coverage of all topics. For example, classical parametric linkage analysis receives very little attention. In contrast, Chapter 10 is devoted to admixture mapping, a research area that has been recently developed, so that, again, the authors successfully fill in a gap in textbook literature. The closing chapter on haplotype inference and its use for association, instead, covers EM methods, but ignores recent methods devised to process high density genotyping. In conclusion, "The Statistics of Gene Mapping" provides the reader with a clear, concise introduction to a number of important topics and I think it will prove to be a useful teaching instrument.
+Reviewer:
+Chiara Sabatti Departments of Human Genetics and Statistics University of California at Los Angeles Los Angeles, CA 90095, United States of America E-mail: csabatti@mednet.ucla.edu URL: http://www.genetics.ucla.edu/labs/sabatti/home/
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 21, Book Review 2 August 2007
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2007-08-22
+
+

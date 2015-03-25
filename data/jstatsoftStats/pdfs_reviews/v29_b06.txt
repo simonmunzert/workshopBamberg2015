@@ -1,0 +1,35 @@
+JSS Journal of Statistical Software
+
+January 2009, Volume 29, Book Review 6.
+
+http://www.jstatsoft.org/
+
+Reviewer: Jan de Leeuw University of California at Los Angeles
+Nonlinear Regression with R
+Christian Ritz and Jens Carl Streibig Springer-Verlag, New York, NY, 2008. ISBN 978-0-387-09615-5. 144 pp. USD 54.95 (P). http://CRAN.R-project.org/package=nlrwr
+The Use R! series published by Springer is a wonderful thing. There is nothing else like it, and as far as I know there has never been anything like it, certainly not for open-source software. Slowly but surely both the amount and the quality of documentation available for users of R approaches that available for Stata or SPSS. As a direct consequence R is losing its geek status and is becoming a viable and flexible alternative for routine data analysis and for teaching statistics at various levels. The book by Ritz and Streibig is a fine example. It documents, explains, and illustrates in considerable detail the venerable nls() function, available both in S and R, that has been described before in Chambers and Hastie (1992, Chapter 10) and Venables and Ripley (2002, Chapter 8). But the material has now been expanded to what is basically a mini-course in nonlinear regression, or, as the authors suggest, an R companion to a full nonlinear regression course. Books of this form are ideal for self-study, because they allow the student to actively run commands and analyze data, while giving enough references for more theoretical study. My guess is that about 95% of the experimenters or researchers using this book will think that the material is quite sufficient for their needs, and will not be interested in further theoretical study. That, I think, is actually one of its greatest strengths. The book packs a lot of information in 144 pages, and eight chapters:
+I Introduction
+II Getting Started
+III Starting Values and Self-Starters
+IV More on nls()
+V Model Diagnostics
+VI Remedies for Model Violations
+
+2 Nonlinear Regression with R
+VII Uncertainties, Hypothesis Testing, and Model Selection
+VIII Grouped Data
+The titles more or less speak for themselves. The writing is clear and minimal R knowledge will get you a long way through the text. Each chapter has about five exercises, which ask for additional analysis with the data sets and the code in the nlrwr package that is available from the Comprehensive R Archive Network (CRAN). There is also a small amount information on the function glm() for generalized linear models. In the last chapter gnls(), from the package nlme, is discussed. Chapter 5­7 discuss many, many regression-related topics ­ very briefly obviously, but with enough information to follow up in the literature if necessary. In summary I think the book is excellent, and eminently useful. I hope it will serve as a model for documenting more of the larger R functions and packages.
+References
+Chambers JM, Hastie TJ (eds.) (1992). Statistical Models in S. Chapman & Hall, London.
+Venables WN, Ripley BD (2002). Modern Applied Statistics with S. 4th edition. SpringerVerlag, New York.
+Reviewer:
+Jan de Leeuw University of California at Los Angeles Department of Statistics Los Angeles, CA 90095-1554, United States of America E-mail: deleeuw@stat.ucla.edu URL: http://gifi.stat.ucla.edu/
+
+Journal of Statistical Software
+published by the American Statistical Association
+Volume 29, Book Review 6 January 2009
+
+http://www.jstatsoft.org/ http://www.amstat.org/
+Published: 2009-01-04
+
+
