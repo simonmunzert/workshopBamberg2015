@@ -59,23 +59,6 @@ save(twitCred, file = "twitter_auth.Rdata")
 ## working with the twitteR package ------------
 
 
-credentials <- c(
-  "twitter_api_key=rN3Td2zZADLWZBN9Pj7X2eBN",
-  "twitter_api_secret=abcqBpUzE7BQ65QJ6BRzpUzjyaRCfwn3ndrUUcqDWfhCN7Fj",
-  "twitter_access_token=9287465372-6ckQsXGP83eaXCsQHFQFx5pUNhmYYqknnCwWScVk8n7L",
-  "twitter_access_token_secret=ZHUxEW5fefntdyWBBB95fuXY5umZzWXdtPKtjUEP9GDcJs6w"
-)
-
-credentials <- c(
-"twitter_api_key=auXJlLHKKNwkVSpyK7tK9TiMc",
-"twitter_api_secret=327yJX4GOwuGzDFxeHQP936XGcQqJuUch2aGnSbK1hxKjBO2Y4",
-"twitter_access_token=2734676077-CelbcJHC2syxUUyh22mAKbfvvxgdt1qeAZy0sTS",
-"twitter_access_token_secret=FmM3yt7WYnae71mYKqTyUJFK43DbsbZJpR0L36hylcOkf"
-)
-fname <- paste0(normalizePath("~/"),".Renviron")
-writeLines(credentials, fname)
-
-
 # negotiate credentials
 api_key <- Sys.getenv("twitter_api_key")
 api_secret <- Sys.getenv("twitter_api_secret")
